@@ -1,0 +1,36 @@
+{
+  "data": [
+    {
+      "Properties": {
+        "name": "SERVER01.CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-9001-9002-9003-1400"
+      },
+      "ObjectIdentifier": "S-1-5-21-9001-9002-9003-1400",
+      "Aces": [],
+      "LocalAdmins": {
+        "Collected": true,
+        "Results": [
+          {
+            "ObjectIdentifier": "S-1-5-21-9001-9002-9003-1100",
+            "ObjectType": "User"
+          }
+        ]
+      },
+      "Sessions": {
+        "Collected": true,
+        "Results": [
+          {
+            "UserSID": "S-1-5-21-9001-9002-9003-500",
+            "ComputerSID": "S-1-5-21-9001-9002-9003-1400"
+          }
+        ]
+      }
+    }
+  ],
+  "meta": {
+    "type": "computers",
+    "count": 1,
+    "version": 5
+  }
+}

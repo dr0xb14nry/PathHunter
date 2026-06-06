@@ -1,0 +1,31 @@
+{
+  "data": [
+    {
+      "Properties": {
+        "name": "CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-1111111111-2222222222-3333333333"
+      },
+      "ObjectIdentifier": "S-1-5-21-1111111111-2222222222-3333333333",
+      "Aces": [
+        {
+          "PrincipalSID": "S-1-5-21-1111111111-2222222222-3333333333-2000",
+          "PrincipalType": "User",
+          "RightName": "GetChanges",
+          "IsInherited": false
+        },
+        {
+          "PrincipalSID": "S-1-5-21-1111111111-2222222222-3333333333-2000",
+          "PrincipalType": "User",
+          "RightName": "GetChangesAll",
+          "IsInherited": false
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "type": "domains",
+    "count": 1,
+    "version": 5
+  }
+}

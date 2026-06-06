@@ -1,0 +1,716 @@
+{
+  "data": [
+    {
+      "Properties": {
+        "name": "DAADMIN@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-1111111111-2222222222-3333333333-500",
+        "enabled": true,
+        "hasspn": false
+      },
+      "ObjectIdentifier": "S-1-5-21-1111111111-2222222222-3333333333-500",
+      "Aces": [
+        {
+          "PrincipalSID": "S-1-5-21-1111111111-2222222222-3333333333-1301",
+          "PrincipalType": "Group",
+          "RightName": "GenericAll",
+          "IsInherited": false
+        }
+      ]
+    },
+    {
+      "Properties": {
+        "name": "ALICE@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-1111111111-2222222222-3333333333-1100",
+        "enabled": true,
+        "hasspn": false
+      },
+      "ObjectIdentifier": "S-1-5-21-1111111111-2222222222-3333333333-1100",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "SVC_BACKUP@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-1111111111-2222222222-3333333333-1201",
+        "enabled": true,
+        "hasspn": true
+      },
+      "ObjectIdentifier": "S-1-5-21-1111111111-2222222222-3333333333-1201",
+      "Aces": [
+        {
+          "PrincipalSID": "S-1-5-21-1111111111-2222222222-3333333333-1300",
+          "PrincipalType": "Group",
+          "RightName": "ForceChangePassword",
+          "IsInherited": false
+        }
+      ]
+    },
+    {
+      "Properties": {
+        "name": "SVC_000@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-1111111111-2222222222-3333333333-2000",
+        "enabled": true,
+        "hasspn": true
+      },
+      "ObjectIdentifier": "S-1-5-21-1111111111-2222222222-3333333333-2000",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "USER001@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-1111111111-2222222222-3333333333-2001",
+        "enabled": true,
+        "hasspn": false
+      },
+      "ObjectIdentifier": "S-1-5-21-1111111111-2222222222-3333333333-2001",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "USER002@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-1111111111-2222222222-3333333333-2002",
+        "enabled": true,
+        "hasspn": false
+      },
+      "ObjectIdentifier": "S-1-5-21-1111111111-2222222222-3333333333-2002",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "USER003@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-1111111111-2222222222-3333333333-2003",
+        "enabled": true,
+        "hasspn": false
+      },
+      "ObjectIdentifier": "S-1-5-21-1111111111-2222222222-3333333333-2003",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "USER004@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-1111111111-2222222222-3333333333-2004",
+        "enabled": true,
+        "hasspn": false
+      },
+      "ObjectIdentifier": "S-1-5-21-1111111111-2222222222-3333333333-2004",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "USER005@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-1111111111-2222222222-3333333333-2005",
+        "enabled": true,
+        "hasspn": false
+      },
+      "ObjectIdentifier": "S-1-5-21-1111111111-2222222222-3333333333-2005",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "USER006@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-1111111111-2222222222-3333333333-2006",
+        "enabled": true,
+        "hasspn": false
+      },
+      "ObjectIdentifier": "S-1-5-21-1111111111-2222222222-3333333333-2006",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "USER007@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-1111111111-2222222222-3333333333-2007",
+        "enabled": true,
+        "hasspn": false
+      },
+      "ObjectIdentifier": "S-1-5-21-1111111111-2222222222-3333333333-2007",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "USER008@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-1111111111-2222222222-3333333333-2008",
+        "enabled": true,
+        "hasspn": false
+      },
+      "ObjectIdentifier": "S-1-5-21-1111111111-2222222222-3333333333-2008",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "USER009@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-1111111111-2222222222-3333333333-2009",
+        "enabled": true,
+        "hasspn": false
+      },
+      "ObjectIdentifier": "S-1-5-21-1111111111-2222222222-3333333333-2009",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "USER010@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-1111111111-2222222222-3333333333-2010",
+        "enabled": true,
+        "hasspn": false
+      },
+      "ObjectIdentifier": "S-1-5-21-1111111111-2222222222-3333333333-2010",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "USER011@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-1111111111-2222222222-3333333333-2011",
+        "enabled": true,
+        "hasspn": false
+      },
+      "ObjectIdentifier": "S-1-5-21-1111111111-2222222222-3333333333-2011",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "USER012@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-1111111111-2222222222-3333333333-2012",
+        "enabled": true,
+        "hasspn": false
+      },
+      "ObjectIdentifier": "S-1-5-21-1111111111-2222222222-3333333333-2012",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "USER013@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-1111111111-2222222222-3333333333-2013",
+        "enabled": true,
+        "hasspn": false
+      },
+      "ObjectIdentifier": "S-1-5-21-1111111111-2222222222-3333333333-2013",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "USER014@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-1111111111-2222222222-3333333333-2014",
+        "enabled": true,
+        "hasspn": false
+      },
+      "ObjectIdentifier": "S-1-5-21-1111111111-2222222222-3333333333-2014",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "USER015@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-1111111111-2222222222-3333333333-2015",
+        "enabled": true,
+        "hasspn": false
+      },
+      "ObjectIdentifier": "S-1-5-21-1111111111-2222222222-3333333333-2015",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "USER016@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-1111111111-2222222222-3333333333-2016",
+        "enabled": true,
+        "hasspn": false
+      },
+      "ObjectIdentifier": "S-1-5-21-1111111111-2222222222-3333333333-2016",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "USER017@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-1111111111-2222222222-3333333333-2017",
+        "enabled": true,
+        "hasspn": false
+      },
+      "ObjectIdentifier": "S-1-5-21-1111111111-2222222222-3333333333-2017",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "USER018@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-1111111111-2222222222-3333333333-2018",
+        "enabled": true,
+        "hasspn": false
+      },
+      "ObjectIdentifier": "S-1-5-21-1111111111-2222222222-3333333333-2018",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "SVC_019@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-1111111111-2222222222-3333333333-2019",
+        "enabled": true,
+        "hasspn": true
+      },
+      "ObjectIdentifier": "S-1-5-21-1111111111-2222222222-3333333333-2019",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "USER020@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-1111111111-2222222222-3333333333-2020",
+        "enabled": true,
+        "hasspn": false
+      },
+      "ObjectIdentifier": "S-1-5-21-1111111111-2222222222-3333333333-2020",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "USER021@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-1111111111-2222222222-3333333333-2021",
+        "enabled": true,
+        "hasspn": false
+      },
+      "ObjectIdentifier": "S-1-5-21-1111111111-2222222222-3333333333-2021",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "USER022@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-1111111111-2222222222-3333333333-2022",
+        "enabled": true,
+        "hasspn": false
+      },
+      "ObjectIdentifier": "S-1-5-21-1111111111-2222222222-3333333333-2022",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "USER023@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-1111111111-2222222222-3333333333-2023",
+        "enabled": true,
+        "hasspn": false
+      },
+      "ObjectIdentifier": "S-1-5-21-1111111111-2222222222-3333333333-2023",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "USER024@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-1111111111-2222222222-3333333333-2024",
+        "enabled": true,
+        "hasspn": false
+      },
+      "ObjectIdentifier": "S-1-5-21-1111111111-2222222222-3333333333-2024",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "USER025@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-1111111111-2222222222-3333333333-2025",
+        "enabled": true,
+        "hasspn": false
+      },
+      "ObjectIdentifier": "S-1-5-21-1111111111-2222222222-3333333333-2025",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "USER026@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-1111111111-2222222222-3333333333-2026",
+        "enabled": true,
+        "hasspn": false
+      },
+      "ObjectIdentifier": "S-1-5-21-1111111111-2222222222-3333333333-2026",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "USER027@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-1111111111-2222222222-3333333333-2027",
+        "enabled": true,
+        "hasspn": false
+      },
+      "ObjectIdentifier": "S-1-5-21-1111111111-2222222222-3333333333-2027",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "USER028@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-1111111111-2222222222-3333333333-2028",
+        "enabled": true,
+        "hasspn": false
+      },
+      "ObjectIdentifier": "S-1-5-21-1111111111-2222222222-3333333333-2028",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "USER029@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-1111111111-2222222222-3333333333-2029",
+        "enabled": true,
+        "hasspn": false
+      },
+      "ObjectIdentifier": "S-1-5-21-1111111111-2222222222-3333333333-2029",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "USER030@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-1111111111-2222222222-3333333333-2030",
+        "enabled": true,
+        "hasspn": false
+      },
+      "ObjectIdentifier": "S-1-5-21-1111111111-2222222222-3333333333-2030",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "USER031@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-1111111111-2222222222-3333333333-2031",
+        "enabled": true,
+        "hasspn": false
+      },
+      "ObjectIdentifier": "S-1-5-21-1111111111-2222222222-3333333333-2031",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "USER032@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-1111111111-2222222222-3333333333-2032",
+        "enabled": true,
+        "hasspn": false
+      },
+      "ObjectIdentifier": "S-1-5-21-1111111111-2222222222-3333333333-2032",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "USER033@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-1111111111-2222222222-3333333333-2033",
+        "enabled": true,
+        "hasspn": false
+      },
+      "ObjectIdentifier": "S-1-5-21-1111111111-2222222222-3333333333-2033",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "USER034@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-1111111111-2222222222-3333333333-2034",
+        "enabled": true,
+        "hasspn": false
+      },
+      "ObjectIdentifier": "S-1-5-21-1111111111-2222222222-3333333333-2034",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "USER035@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-1111111111-2222222222-3333333333-2035",
+        "enabled": true,
+        "hasspn": false
+      },
+      "ObjectIdentifier": "S-1-5-21-1111111111-2222222222-3333333333-2035",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "USER036@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-1111111111-2222222222-3333333333-2036",
+        "enabled": true,
+        "hasspn": false
+      },
+      "ObjectIdentifier": "S-1-5-21-1111111111-2222222222-3333333333-2036",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "USER037@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-1111111111-2222222222-3333333333-2037",
+        "enabled": true,
+        "hasspn": false
+      },
+      "ObjectIdentifier": "S-1-5-21-1111111111-2222222222-3333333333-2037",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "SVC_038@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-1111111111-2222222222-3333333333-2038",
+        "enabled": true,
+        "hasspn": true
+      },
+      "ObjectIdentifier": "S-1-5-21-1111111111-2222222222-3333333333-2038",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "USER039@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-1111111111-2222222222-3333333333-2039",
+        "enabled": true,
+        "hasspn": false
+      },
+      "ObjectIdentifier": "S-1-5-21-1111111111-2222222222-3333333333-2039",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "USER040@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-1111111111-2222222222-3333333333-2040",
+        "enabled": true,
+        "hasspn": false
+      },
+      "ObjectIdentifier": "S-1-5-21-1111111111-2222222222-3333333333-2040",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "USER041@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-1111111111-2222222222-3333333333-2041",
+        "enabled": true,
+        "hasspn": false
+      },
+      "ObjectIdentifier": "S-1-5-21-1111111111-2222222222-3333333333-2041",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "USER042@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-1111111111-2222222222-3333333333-2042",
+        "enabled": true,
+        "hasspn": false
+      },
+      "ObjectIdentifier": "S-1-5-21-1111111111-2222222222-3333333333-2042",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "USER043@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-1111111111-2222222222-3333333333-2043",
+        "enabled": true,
+        "hasspn": false
+      },
+      "ObjectIdentifier": "S-1-5-21-1111111111-2222222222-3333333333-2043",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "USER044@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-1111111111-2222222222-3333333333-2044",
+        "enabled": true,
+        "hasspn": false
+      },
+      "ObjectIdentifier": "S-1-5-21-1111111111-2222222222-3333333333-2044",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "USER045@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-1111111111-2222222222-3333333333-2045",
+        "enabled": true,
+        "hasspn": false
+      },
+      "ObjectIdentifier": "S-1-5-21-1111111111-2222222222-3333333333-2045",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "USER046@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-1111111111-2222222222-3333333333-2046",
+        "enabled": true,
+        "hasspn": false
+      },
+      "ObjectIdentifier": "S-1-5-21-1111111111-2222222222-3333333333-2046",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "USER047@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-1111111111-2222222222-3333333333-2047",
+        "enabled": true,
+        "hasspn": false
+      },
+      "ObjectIdentifier": "S-1-5-21-1111111111-2222222222-3333333333-2047",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "USER048@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-1111111111-2222222222-3333333333-2048",
+        "enabled": true,
+        "hasspn": false
+      },
+      "ObjectIdentifier": "S-1-5-21-1111111111-2222222222-3333333333-2048",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "USER049@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-1111111111-2222222222-3333333333-2049",
+        "enabled": true,
+        "hasspn": false
+      },
+      "ObjectIdentifier": "S-1-5-21-1111111111-2222222222-3333333333-2049",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "USER050@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-1111111111-2222222222-3333333333-2050",
+        "enabled": true,
+        "hasspn": false
+      },
+      "ObjectIdentifier": "S-1-5-21-1111111111-2222222222-3333333333-2050",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "USER051@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-1111111111-2222222222-3333333333-2051",
+        "enabled": true,
+        "hasspn": false
+      },
+      "ObjectIdentifier": "S-1-5-21-1111111111-2222222222-3333333333-2051",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "USER052@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-1111111111-2222222222-3333333333-2052",
+        "enabled": true,
+        "hasspn": false
+      },
+      "ObjectIdentifier": "S-1-5-21-1111111111-2222222222-3333333333-2052",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "USER053@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-1111111111-2222222222-3333333333-2053",
+        "enabled": true,
+        "hasspn": false
+      },
+      "ObjectIdentifier": "S-1-5-21-1111111111-2222222222-3333333333-2053",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "USER054@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-1111111111-2222222222-3333333333-2054",
+        "enabled": true,
+        "hasspn": false
+      },
+      "ObjectIdentifier": "S-1-5-21-1111111111-2222222222-3333333333-2054",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "USER055@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-1111111111-2222222222-3333333333-2055",
+        "enabled": true,
+        "hasspn": false
+      },
+      "ObjectIdentifier": "S-1-5-21-1111111111-2222222222-3333333333-2055",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "USER056@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-1111111111-2222222222-3333333333-2056",
+        "enabled": true,
+        "hasspn": false
+      },
+      "ObjectIdentifier": "S-1-5-21-1111111111-2222222222-3333333333-2056",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "SVC_057@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-1111111111-2222222222-3333333333-2057",
+        "enabled": true,
+        "hasspn": true
+      },
+      "ObjectIdentifier": "S-1-5-21-1111111111-2222222222-3333333333-2057",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "USER058@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-1111111111-2222222222-3333333333-2058",
+        "enabled": true,
+        "hasspn": false
+      },
+      "ObjectIdentifier": "S-1-5-21-1111111111-2222222222-3333333333-2058",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "USER059@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-1111111111-2222222222-3333333333-2059",
+        "enabled": true,
+        "hasspn": false
+      },
+      "ObjectIdentifier": "S-1-5-21-1111111111-2222222222-3333333333-2059",
+      "Aces": []
+    }
+  ],
+  "meta": {
+    "type": "users",
+    "count": 63,
+    "version": 5
+  }
+}

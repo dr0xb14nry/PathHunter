@@ -1,0 +1,31 @@
+{
+  "data": [
+    {
+      "Properties": { "name": "HELPDESK@CORP.LOCAL", "domain": "CORP.LOCAL", "objectid": "S-1-5-21-1111111111-2222222222-3333333333-1301" },
+      "ObjectIdentifier": "S-1-5-21-1111111111-2222222222-3333333333-1301",
+      "Aces": [],
+      "Members": [
+        { "ObjectIdentifier": "S-1-5-21-1111111111-2222222222-3333333333-1104", "ObjectType": "User" },
+        { "ObjectIdentifier": "S-1-5-21-1111111111-2222222222-3333333333-1105", "ObjectType": "User" }
+      ]
+    },
+    {
+      "Properties": { "name": "IT-ADMINS@CORP.LOCAL", "domain": "CORP.LOCAL", "objectid": "S-1-5-21-1111111111-2222222222-3333333333-1302" },
+      "ObjectIdentifier": "S-1-5-21-1111111111-2222222222-3333333333-1302",
+      "Aces": [],
+      "Members": [
+        { "ObjectIdentifier": "S-1-5-21-1111111111-2222222222-3333333333-1106", "ObjectType": "User" },
+        { "ObjectIdentifier": "S-1-5-21-1111111111-2222222222-3333333333-1301", "ObjectType": "Group" }
+      ]
+    },
+    {
+      "Properties": { "name": "DOMAIN ADMINS@CORP.LOCAL", "domain": "CORP.LOCAL", "objectid": "S-1-5-21-1111111111-2222222222-3333333333-512" },
+      "ObjectIdentifier": "S-1-5-21-1111111111-2222222222-3333333333-512",
+      "Aces": [],
+      "Members": [
+        { "ObjectIdentifier": "S-1-5-21-1111111111-2222222222-3333333333-500", "ObjectType": "User" }
+      ]
+    }
+  ],
+  "meta": { "type": "groups", "count": 3, "version": 5 }
+}

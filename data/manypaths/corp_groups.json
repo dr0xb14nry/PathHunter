@@ -1,0 +1,54 @@
+{
+  "data": [
+    {
+      "Properties": {
+        "name": "HELPDESK@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-9001-9002-9003-1300"
+      },
+      "ObjectIdentifier": "S-1-5-21-9001-9002-9003-1300",
+      "Aces": [],
+      "Members": [
+        {
+          "ObjectIdentifier": "S-1-5-21-9001-9002-9003-1100",
+          "ObjectType": "User"
+        }
+      ]
+    },
+    {
+      "Properties": {
+        "name": "IT-ADMINS@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-9001-9002-9003-1301"
+      },
+      "ObjectIdentifier": "S-1-5-21-9001-9002-9003-1301",
+      "Aces": [],
+      "Members": [
+        {
+          "ObjectIdentifier": "S-1-5-21-9001-9002-9003-1300",
+          "ObjectType": "Group"
+        }
+      ]
+    },
+    {
+      "Properties": {
+        "name": "DOMAIN ADMINS@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-9001-9002-9003-512"
+      },
+      "ObjectIdentifier": "S-1-5-21-9001-9002-9003-512",
+      "Aces": [],
+      "Members": [
+        {
+          "ObjectIdentifier": "S-1-5-21-9001-9002-9003-500",
+          "ObjectType": "User"
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "type": "groups",
+    "count": 3,
+    "version": 5
+  }
+}

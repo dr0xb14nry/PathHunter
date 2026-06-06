@@ -1,0 +1,24 @@
+{
+  "data": [
+    {
+      "Properties": {
+        "name": "DOMAIN ADMINS@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-7001-7002-7003-512"
+      },
+      "ObjectIdentifier": "S-1-5-21-7001-7002-7003-512",
+      "Aces": [],
+      "Members": [
+        {
+          "ObjectIdentifier": "S-1-5-21-7001-7002-7003-500",
+          "ObjectType": "User"
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "type": "groups",
+    "count": 1,
+    "version": 5
+  }
+}

@@ -1,0 +1,278 @@
+{
+  "data": [
+    {
+      "Properties": {
+        "name": "ALICE@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-9001-9002-9003-1100",
+        "enabled": true,
+        "hasspn": false
+      },
+      "ObjectIdentifier": "S-1-5-21-9001-9002-9003-1100",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "DAADMIN@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-9001-9002-9003-500",
+        "enabled": true,
+        "hasspn": false
+      },
+      "ObjectIdentifier": "S-1-5-21-9001-9002-9003-500",
+      "Aces": [
+        {
+          "PrincipalSID": "S-1-5-21-9001-9002-9003-1200",
+          "PrincipalType": "User",
+          "RightName": "GenericAll",
+          "IsInherited": false
+        },
+        {
+          "PrincipalSID": "S-1-5-21-9001-9002-9003-1201",
+          "PrincipalType": "User",
+          "RightName": "GenericAll",
+          "IsInherited": false
+        },
+        {
+          "PrincipalSID": "S-1-5-21-9001-9002-9003-1202",
+          "PrincipalType": "User",
+          "RightName": "GenericAll",
+          "IsInherited": false
+        },
+        {
+          "PrincipalSID": "S-1-5-21-9001-9002-9003-1203",
+          "PrincipalType": "User",
+          "RightName": "GenericAll",
+          "IsInherited": false
+        },
+        {
+          "PrincipalSID": "S-1-5-21-9001-9002-9003-1204",
+          "PrincipalType": "User",
+          "RightName": "GenericAll",
+          "IsInherited": false
+        },
+        {
+          "PrincipalSID": "S-1-5-21-9001-9002-9003-1205",
+          "PrincipalType": "User",
+          "RightName": "GenericAll",
+          "IsInherited": false
+        },
+        {
+          "PrincipalSID": "S-1-5-21-9001-9002-9003-1206",
+          "PrincipalType": "User",
+          "RightName": "GenericAll",
+          "IsInherited": false
+        },
+        {
+          "PrincipalSID": "S-1-5-21-9001-9002-9003-1207",
+          "PrincipalType": "User",
+          "RightName": "GenericAll",
+          "IsInherited": false
+        },
+        {
+          "PrincipalSID": "S-1-5-21-9001-9002-9003-1208",
+          "PrincipalType": "User",
+          "RightName": "GenericAll",
+          "IsInherited": false
+        },
+        {
+          "PrincipalSID": "S-1-5-21-9001-9002-9003-1209",
+          "PrincipalType": "User",
+          "RightName": "GenericAll",
+          "IsInherited": false
+        },
+        {
+          "PrincipalSID": "S-1-5-21-9001-9002-9003-1301",
+          "PrincipalType": "Group",
+          "RightName": "GenericAll",
+          "IsInherited": false
+        }
+      ]
+    },
+    {
+      "Properties": {
+        "name": "SVC01@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-9001-9002-9003-1200",
+        "enabled": true,
+        "hasspn": true
+      },
+      "ObjectIdentifier": "S-1-5-21-9001-9002-9003-1200",
+      "Aces": [
+        {
+          "PrincipalSID": "S-1-5-21-9001-9002-9003-1300",
+          "PrincipalType": "Group",
+          "RightName": "GenericAll",
+          "IsInherited": false
+        }
+      ]
+    },
+    {
+      "Properties": {
+        "name": "SVC02@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-9001-9002-9003-1201",
+        "enabled": true,
+        "hasspn": true
+      },
+      "ObjectIdentifier": "S-1-5-21-9001-9002-9003-1201",
+      "Aces": [
+        {
+          "PrincipalSID": "S-1-5-21-9001-9002-9003-1300",
+          "PrincipalType": "Group",
+          "RightName": "GenericAll",
+          "IsInherited": false
+        }
+      ]
+    },
+    {
+      "Properties": {
+        "name": "SVC03@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-9001-9002-9003-1202",
+        "enabled": true,
+        "hasspn": true
+      },
+      "ObjectIdentifier": "S-1-5-21-9001-9002-9003-1202",
+      "Aces": [
+        {
+          "PrincipalSID": "S-1-5-21-9001-9002-9003-1300",
+          "PrincipalType": "Group",
+          "RightName": "GenericAll",
+          "IsInherited": false
+        }
+      ]
+    },
+    {
+      "Properties": {
+        "name": "SVC04@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-9001-9002-9003-1203",
+        "enabled": true,
+        "hasspn": true
+      },
+      "ObjectIdentifier": "S-1-5-21-9001-9002-9003-1203",
+      "Aces": [
+        {
+          "PrincipalSID": "S-1-5-21-9001-9002-9003-1300",
+          "PrincipalType": "Group",
+          "RightName": "GenericAll",
+          "IsInherited": false
+        }
+      ]
+    },
+    {
+      "Properties": {
+        "name": "SVC05@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-9001-9002-9003-1204",
+        "enabled": true,
+        "hasspn": true
+      },
+      "ObjectIdentifier": "S-1-5-21-9001-9002-9003-1204",
+      "Aces": [
+        {
+          "PrincipalSID": "S-1-5-21-9001-9002-9003-1300",
+          "PrincipalType": "Group",
+          "RightName": "GenericAll",
+          "IsInherited": false
+        }
+      ]
+    },
+    {
+      "Properties": {
+        "name": "SVC06@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-9001-9002-9003-1205",
+        "enabled": true,
+        "hasspn": true
+      },
+      "ObjectIdentifier": "S-1-5-21-9001-9002-9003-1205",
+      "Aces": [
+        {
+          "PrincipalSID": "S-1-5-21-9001-9002-9003-1300",
+          "PrincipalType": "Group",
+          "RightName": "GenericAll",
+          "IsInherited": false
+        }
+      ]
+    },
+    {
+      "Properties": {
+        "name": "SVC07@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-9001-9002-9003-1206",
+        "enabled": true,
+        "hasspn": true
+      },
+      "ObjectIdentifier": "S-1-5-21-9001-9002-9003-1206",
+      "Aces": [
+        {
+          "PrincipalSID": "S-1-5-21-9001-9002-9003-1300",
+          "PrincipalType": "Group",
+          "RightName": "GenericAll",
+          "IsInherited": false
+        }
+      ]
+    },
+    {
+      "Properties": {
+        "name": "SVC08@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-9001-9002-9003-1207",
+        "enabled": true,
+        "hasspn": true
+      },
+      "ObjectIdentifier": "S-1-5-21-9001-9002-9003-1207",
+      "Aces": [
+        {
+          "PrincipalSID": "S-1-5-21-9001-9002-9003-1300",
+          "PrincipalType": "Group",
+          "RightName": "GenericAll",
+          "IsInherited": false
+        }
+      ]
+    },
+    {
+      "Properties": {
+        "name": "SVC09@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-9001-9002-9003-1208",
+        "enabled": true,
+        "hasspn": true
+      },
+      "ObjectIdentifier": "S-1-5-21-9001-9002-9003-1208",
+      "Aces": [
+        {
+          "PrincipalSID": "S-1-5-21-9001-9002-9003-1300",
+          "PrincipalType": "Group",
+          "RightName": "GenericAll",
+          "IsInherited": false
+        }
+      ]
+    },
+    {
+      "Properties": {
+        "name": "SVC10@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-9001-9002-9003-1209",
+        "enabled": true,
+        "hasspn": true
+      },
+      "ObjectIdentifier": "S-1-5-21-9001-9002-9003-1209",
+      "Aces": [
+        {
+          "PrincipalSID": "S-1-5-21-9001-9002-9003-1300",
+          "PrincipalType": "Group",
+          "RightName": "GenericAll",
+          "IsInherited": false
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "type": "users",
+    "count": 12,
+    "version": 5
+  }
+}

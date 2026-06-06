@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+env/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Secrets / local config
+.env
+*.key
+config.local.*
+
+# Generated output
+*.log
+output/
+reports/
+
+# Browser-uploaded data (runtime only)
+data/_uploads/
+
+# Downloaded real datasets (recreate with scripts/fetch_real_data.py)
+data/_real/
+data/_realsrc/
+data/goad/

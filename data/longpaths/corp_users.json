@@ -1,0 +1,320 @@
+{
+  "data": [
+    {
+      "Properties": {
+        "name": "ALICE@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-7001-7002-7003-1000",
+        "enabled": true
+      },
+      "ObjectIdentifier": "S-1-5-21-7001-7002-7003-1000",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "DAADMIN@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-7001-7002-7003-500",
+        "enabled": true
+      },
+      "ObjectIdentifier": "S-1-5-21-7001-7002-7003-500",
+      "Aces": [
+        {
+          "PrincipalSID": "S-1-5-21-7001-7002-7003-1102",
+          "PrincipalType": "User",
+          "RightName": "HasSession",
+          "IsInherited": false
+        },
+        {
+          "PrincipalSID": "S-1-5-21-7001-7002-7003-1204",
+          "PrincipalType": "User",
+          "RightName": "ForceChangePassword",
+          "IsInherited": false
+        },
+        {
+          "PrincipalSID": "S-1-5-21-7001-7002-7003-1307",
+          "PrincipalType": "User",
+          "RightName": "GpLink",
+          "IsInherited": false
+        }
+      ]
+    },
+    {
+      "Properties": {
+        "name": "F1@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-7001-7002-7003-1100",
+        "enabled": true
+      },
+      "ObjectIdentifier": "S-1-5-21-7001-7002-7003-1100",
+      "Aces": [
+        {
+          "PrincipalSID": "S-1-5-21-7001-7002-7003-1000",
+          "PrincipalType": "User",
+          "RightName": "AdminTo",
+          "IsInherited": false
+        }
+      ]
+    },
+    {
+      "Properties": {
+        "name": "F2@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-7001-7002-7003-1101",
+        "enabled": true
+      },
+      "ObjectIdentifier": "S-1-5-21-7001-7002-7003-1101",
+      "Aces": [
+        {
+          "PrincipalSID": "S-1-5-21-7001-7002-7003-1100",
+          "PrincipalType": "User",
+          "RightName": "HasSession",
+          "IsInherited": false
+        }
+      ]
+    },
+    {
+      "Properties": {
+        "name": "F3@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-7001-7002-7003-1102",
+        "enabled": true
+      },
+      "ObjectIdentifier": "S-1-5-21-7001-7002-7003-1102",
+      "Aces": [
+        {
+          "PrincipalSID": "S-1-5-21-7001-7002-7003-1101",
+          "PrincipalType": "User",
+          "RightName": "AdminTo",
+          "IsInherited": false
+        }
+      ]
+    },
+    {
+      "Properties": {
+        "name": "R1@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-7001-7002-7003-1200",
+        "enabled": true
+      },
+      "ObjectIdentifier": "S-1-5-21-7001-7002-7003-1200",
+      "Aces": [
+        {
+          "PrincipalSID": "S-1-5-21-7001-7002-7003-1000",
+          "PrincipalType": "User",
+          "RightName": "ForceChangePassword",
+          "IsInherited": false
+        }
+      ]
+    },
+    {
+      "Properties": {
+        "name": "R2@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-7001-7002-7003-1201",
+        "enabled": true
+      },
+      "ObjectIdentifier": "S-1-5-21-7001-7002-7003-1201",
+      "Aces": [
+        {
+          "PrincipalSID": "S-1-5-21-7001-7002-7003-1200",
+          "PrincipalType": "User",
+          "RightName": "AddMember",
+          "IsInherited": false
+        }
+      ]
+    },
+    {
+      "Properties": {
+        "name": "R3@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-7001-7002-7003-1202",
+        "enabled": true
+      },
+      "ObjectIdentifier": "S-1-5-21-7001-7002-7003-1202",
+      "Aces": [
+        {
+          "PrincipalSID": "S-1-5-21-7001-7002-7003-1201",
+          "PrincipalType": "User",
+          "RightName": "AddSelf",
+          "IsInherited": false
+        }
+      ]
+    },
+    {
+      "Properties": {
+        "name": "R4@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-7001-7002-7003-1203",
+        "enabled": true
+      },
+      "ObjectIdentifier": "S-1-5-21-7001-7002-7003-1203",
+      "Aces": [
+        {
+          "PrincipalSID": "S-1-5-21-7001-7002-7003-1202",
+          "PrincipalType": "User",
+          "RightName": "ForceChangePassword",
+          "IsInherited": false
+        }
+      ]
+    },
+    {
+      "Properties": {
+        "name": "R5@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-7001-7002-7003-1204",
+        "enabled": true
+      },
+      "ObjectIdentifier": "S-1-5-21-7001-7002-7003-1204",
+      "Aces": [
+        {
+          "PrincipalSID": "S-1-5-21-7001-7002-7003-1203",
+          "PrincipalType": "User",
+          "RightName": "AddMember",
+          "IsInherited": false
+        }
+      ]
+    },
+    {
+      "Properties": {
+        "name": "T1@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-7001-7002-7003-1300",
+        "enabled": true
+      },
+      "ObjectIdentifier": "S-1-5-21-7001-7002-7003-1300",
+      "Aces": [
+        {
+          "PrincipalSID": "S-1-5-21-7001-7002-7003-1000",
+          "PrincipalType": "User",
+          "RightName": "GpLink",
+          "IsInherited": false
+        }
+      ]
+    },
+    {
+      "Properties": {
+        "name": "T2@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-7001-7002-7003-1301",
+        "enabled": true
+      },
+      "ObjectIdentifier": "S-1-5-21-7001-7002-7003-1301",
+      "Aces": [
+        {
+          "PrincipalSID": "S-1-5-21-7001-7002-7003-1300",
+          "PrincipalType": "User",
+          "RightName": "GpLink",
+          "IsInherited": false
+        }
+      ]
+    },
+    {
+      "Properties": {
+        "name": "T3@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-7001-7002-7003-1302",
+        "enabled": true
+      },
+      "ObjectIdentifier": "S-1-5-21-7001-7002-7003-1302",
+      "Aces": [
+        {
+          "PrincipalSID": "S-1-5-21-7001-7002-7003-1301",
+          "PrincipalType": "User",
+          "RightName": "GpLink",
+          "IsInherited": false
+        }
+      ]
+    },
+    {
+      "Properties": {
+        "name": "T4@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-7001-7002-7003-1303",
+        "enabled": true
+      },
+      "ObjectIdentifier": "S-1-5-21-7001-7002-7003-1303",
+      "Aces": [
+        {
+          "PrincipalSID": "S-1-5-21-7001-7002-7003-1302",
+          "PrincipalType": "User",
+          "RightName": "GpLink",
+          "IsInherited": false
+        }
+      ]
+    },
+    {
+      "Properties": {
+        "name": "T5@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-7001-7002-7003-1304",
+        "enabled": true
+      },
+      "ObjectIdentifier": "S-1-5-21-7001-7002-7003-1304",
+      "Aces": [
+        {
+          "PrincipalSID": "S-1-5-21-7001-7002-7003-1303",
+          "PrincipalType": "User",
+          "RightName": "GpLink",
+          "IsInherited": false
+        }
+      ]
+    },
+    {
+      "Properties": {
+        "name": "T6@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-7001-7002-7003-1305",
+        "enabled": true
+      },
+      "ObjectIdentifier": "S-1-5-21-7001-7002-7003-1305",
+      "Aces": [
+        {
+          "PrincipalSID": "S-1-5-21-7001-7002-7003-1304",
+          "PrincipalType": "User",
+          "RightName": "GpLink",
+          "IsInherited": false
+        }
+      ]
+    },
+    {
+      "Properties": {
+        "name": "T7@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-7001-7002-7003-1306",
+        "enabled": true
+      },
+      "ObjectIdentifier": "S-1-5-21-7001-7002-7003-1306",
+      "Aces": [
+        {
+          "PrincipalSID": "S-1-5-21-7001-7002-7003-1305",
+          "PrincipalType": "User",
+          "RightName": "GpLink",
+          "IsInherited": false
+        }
+      ]
+    },
+    {
+      "Properties": {
+        "name": "T8@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-7001-7002-7003-1307",
+        "enabled": true
+      },
+      "ObjectIdentifier": "S-1-5-21-7001-7002-7003-1307",
+      "Aces": [
+        {
+          "PrincipalSID": "S-1-5-21-7001-7002-7003-1306",
+          "PrincipalType": "User",
+          "RightName": "GpLink",
+          "IsInherited": false
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "type": "users",
+    "count": 18,
+    "version": 5
+  }
+}

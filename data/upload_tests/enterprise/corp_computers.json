@@ -1,0 +1,175 @@
+{
+  "data": [
+    {
+      "Properties": {
+        "name": "WKS-FIN-014.CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-9001-9002-9003-1400"
+      },
+      "ObjectIdentifier": "S-1-5-21-9001-9002-9003-1400",
+      "Aces": [],
+      "LocalAdmins": {
+        "Collected": true,
+        "Results": [
+          {
+            "ObjectIdentifier": "S-1-5-21-9001-9002-9003-1200",
+            "ObjectType": "User"
+          }
+        ]
+      },
+      "Sessions": {
+        "Collected": true,
+        "Results": [
+          {
+            "UserSID": "S-1-5-21-9001-9002-9003-1101",
+            "ComputerSID": "S-1-5-21-9001-9002-9003-1400"
+          }
+        ]
+      }
+    },
+    {
+      "Properties": {
+        "name": "SRV-APP-03.CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-9001-9002-9003-1401"
+      },
+      "ObjectIdentifier": "S-1-5-21-9001-9002-9003-1401",
+      "Aces": [],
+      "LocalAdmins": {
+        "Collected": true,
+        "Results": [
+          {
+            "ObjectIdentifier": "S-1-5-21-9001-9002-9003-1201",
+            "ObjectType": "User"
+          }
+        ]
+      },
+      "Sessions": {
+        "Collected": true,
+        "Results": [
+          {
+            "UserSID": "S-1-5-21-9001-9002-9003-1102",
+            "ComputerSID": "S-1-5-21-9001-9002-9003-1401"
+          }
+        ]
+      }
+    },
+    {
+      "Properties": {
+        "name": "DC01.CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-9001-9002-9003-1402"
+      },
+      "ObjectIdentifier": "S-1-5-21-9001-9002-9003-1402",
+      "Aces": [],
+      "LocalAdmins": {
+        "Collected": true,
+        "Results": [
+          {
+            "ObjectIdentifier": "S-1-5-21-9001-9002-9003-1202",
+            "ObjectType": "User"
+          }
+        ]
+      },
+      "Sessions": {
+        "Collected": true,
+        "Results": [
+          {
+            "UserSID": "S-1-5-21-9001-9002-9003-500",
+            "ComputerSID": "S-1-5-21-9001-9002-9003-1402"
+          }
+        ]
+      }
+    },
+    {
+      "Properties": {
+        "name": "WKS-FIN-01.CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-9001-9002-9003-1403"
+      },
+      "ObjectIdentifier": "S-1-5-21-9001-9002-9003-1403",
+      "Aces": [],
+      "LocalAdmins": {
+        "Collected": true,
+        "Results": []
+      },
+      "Sessions": {
+        "Collected": true,
+        "Results": []
+      }
+    },
+    {
+      "Properties": {
+        "name": "WKS-FIN-02.CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-9001-9002-9003-1404"
+      },
+      "ObjectIdentifier": "S-1-5-21-9001-9002-9003-1404",
+      "Aces": [],
+      "LocalAdmins": {
+        "Collected": true,
+        "Results": []
+      },
+      "Sessions": {
+        "Collected": true,
+        "Results": []
+      }
+    },
+    {
+      "Properties": {
+        "name": "WKS-ENG-01.CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-9001-9002-9003-1405"
+      },
+      "ObjectIdentifier": "S-1-5-21-9001-9002-9003-1405",
+      "Aces": [],
+      "LocalAdmins": {
+        "Collected": true,
+        "Results": []
+      },
+      "Sessions": {
+        "Collected": true,
+        "Results": []
+      }
+    },
+    {
+      "Properties": {
+        "name": "WKS-ENG-02.CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-9001-9002-9003-1406"
+      },
+      "ObjectIdentifier": "S-1-5-21-9001-9002-9003-1406",
+      "Aces": [],
+      "LocalAdmins": {
+        "Collected": true,
+        "Results": []
+      },
+      "Sessions": {
+        "Collected": true,
+        "Results": []
+      }
+    },
+    {
+      "Properties": {
+        "name": "WKS-SAL-01.CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-9001-9002-9003-1407"
+      },
+      "ObjectIdentifier": "S-1-5-21-9001-9002-9003-1407",
+      "Aces": [],
+      "LocalAdmins": {
+        "Collected": true,
+        "Results": []
+      },
+      "Sessions": {
+        "Collected": true,
+        "Results": []
+      }
+    }
+  ],
+  "meta": {
+    "type": "computers",
+    "count": 8,
+    "version": 5
+  }
+}

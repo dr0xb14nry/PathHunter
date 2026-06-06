@@ -1,0 +1,411 @@
+{
+  "data": [
+    {
+      "Properties": {
+        "name": "SERVER01.CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-1111111111-2222222222-3333333333-1401"
+      },
+      "ObjectIdentifier": "S-1-5-21-1111111111-2222222222-3333333333-1401",
+      "Aces": [],
+      "LocalAdmins": {
+        "Collected": true,
+        "Results": [
+          {
+            "ObjectIdentifier": "S-1-5-21-1111111111-2222222222-3333333333-1201",
+            "ObjectType": "User"
+          },
+          {
+            "ObjectIdentifier": "S-1-5-21-1111111111-2222222222-3333333333-1100",
+            "ObjectType": "User"
+          },
+          {
+            "ObjectIdentifier": "S-1-5-21-1111111111-2222222222-3333333333-1302",
+            "ObjectType": "Group"
+          }
+        ]
+      },
+      "Sessions": {
+        "Collected": true,
+        "Results": [
+          {
+            "UserSID": "S-1-5-21-1111111111-2222222222-3333333333-500",
+            "ComputerSID": "S-1-5-21-1111111111-2222222222-3333333333-1401"
+          }
+        ]
+      }
+    },
+    {
+      "Properties": {
+        "name": "DC01.CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-1111111111-2222222222-3333333333-1400"
+      },
+      "ObjectIdentifier": "S-1-5-21-1111111111-2222222222-3333333333-1400",
+      "Aces": [],
+      "LocalAdmins": {
+        "Collected": true,
+        "Results": []
+      },
+      "Sessions": {
+        "Collected": true,
+        "Results": []
+      }
+    },
+    {
+      "Properties": {
+        "name": "SERVER00.CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-1111111111-2222222222-3333333333-1402"
+      },
+      "ObjectIdentifier": "S-1-5-21-1111111111-2222222222-3333333333-1402",
+      "Aces": [],
+      "LocalAdmins": {
+        "Collected": true,
+        "Results": [
+          {
+            "ObjectIdentifier": "S-1-5-21-1111111111-2222222222-3333333333-1302",
+            "ObjectType": "Group"
+          }
+        ]
+      },
+      "Sessions": {
+        "Collected": true,
+        "Results": [
+          {
+            "UserSID": "S-1-5-21-1111111111-2222222222-3333333333-2026",
+            "ComputerSID": "S-1-5-21-1111111111-2222222222-3333333333-1402"
+          }
+        ]
+      }
+    },
+    {
+      "Properties": {
+        "name": "WKSTN01.CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-1111111111-2222222222-3333333333-1403"
+      },
+      "ObjectIdentifier": "S-1-5-21-1111111111-2222222222-3333333333-1403",
+      "Aces": [],
+      "LocalAdmins": {
+        "Collected": true,
+        "Results": [
+          {
+            "ObjectIdentifier": "S-1-5-21-1111111111-2222222222-3333333333-1303",
+            "ObjectType": "Group"
+          }
+        ]
+      },
+      "Sessions": {
+        "Collected": true,
+        "Results": [
+          {
+            "UserSID": "S-1-5-21-1111111111-2222222222-3333333333-2007",
+            "ComputerSID": "S-1-5-21-1111111111-2222222222-3333333333-1403"
+          }
+        ]
+      }
+    },
+    {
+      "Properties": {
+        "name": "WKSTN02.CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-1111111111-2222222222-3333333333-1404"
+      },
+      "ObjectIdentifier": "S-1-5-21-1111111111-2222222222-3333333333-1404",
+      "Aces": [],
+      "LocalAdmins": {
+        "Collected": true,
+        "Results": [
+          {
+            "ObjectIdentifier": "S-1-5-21-1111111111-2222222222-3333333333-1303",
+            "ObjectType": "Group"
+          }
+        ]
+      },
+      "Sessions": {
+        "Collected": true,
+        "Results": []
+      }
+    },
+    {
+      "Properties": {
+        "name": "WKSTN03.CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-1111111111-2222222222-3333333333-1405"
+      },
+      "ObjectIdentifier": "S-1-5-21-1111111111-2222222222-3333333333-1405",
+      "Aces": [],
+      "LocalAdmins": {
+        "Collected": true,
+        "Results": [
+          {
+            "ObjectIdentifier": "S-1-5-21-1111111111-2222222222-3333333333-1303",
+            "ObjectType": "Group"
+          }
+        ]
+      },
+      "Sessions": {
+        "Collected": true,
+        "Results": []
+      }
+    },
+    {
+      "Properties": {
+        "name": "SERVER04.CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-1111111111-2222222222-3333333333-1406"
+      },
+      "ObjectIdentifier": "S-1-5-21-1111111111-2222222222-3333333333-1406",
+      "Aces": [],
+      "LocalAdmins": {
+        "Collected": true,
+        "Results": [
+          {
+            "ObjectIdentifier": "S-1-5-21-1111111111-2222222222-3333333333-1302",
+            "ObjectType": "Group"
+          }
+        ]
+      },
+      "Sessions": {
+        "Collected": true,
+        "Results": []
+      }
+    },
+    {
+      "Properties": {
+        "name": "WKSTN05.CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-1111111111-2222222222-3333333333-1407"
+      },
+      "ObjectIdentifier": "S-1-5-21-1111111111-2222222222-3333333333-1407",
+      "Aces": [],
+      "LocalAdmins": {
+        "Collected": true,
+        "Results": [
+          {
+            "ObjectIdentifier": "S-1-5-21-1111111111-2222222222-3333333333-1303",
+            "ObjectType": "Group"
+          }
+        ]
+      },
+      "Sessions": {
+        "Collected": true,
+        "Results": [
+          {
+            "UserSID": "S-1-5-21-1111111111-2222222222-3333333333-2036",
+            "ComputerSID": "S-1-5-21-1111111111-2222222222-3333333333-1407"
+          }
+        ]
+      }
+    },
+    {
+      "Properties": {
+        "name": "WKSTN06.CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-1111111111-2222222222-3333333333-1408"
+      },
+      "ObjectIdentifier": "S-1-5-21-1111111111-2222222222-3333333333-1408",
+      "Aces": [],
+      "LocalAdmins": {
+        "Collected": true,
+        "Results": [
+          {
+            "ObjectIdentifier": "S-1-5-21-1111111111-2222222222-3333333333-1303",
+            "ObjectType": "Group"
+          }
+        ]
+      },
+      "Sessions": {
+        "Collected": true,
+        "Results": []
+      }
+    },
+    {
+      "Properties": {
+        "name": "WKSTN07.CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-1111111111-2222222222-3333333333-1409"
+      },
+      "ObjectIdentifier": "S-1-5-21-1111111111-2222222222-3333333333-1409",
+      "Aces": [],
+      "LocalAdmins": {
+        "Collected": true,
+        "Results": [
+          {
+            "ObjectIdentifier": "S-1-5-21-1111111111-2222222222-3333333333-1303",
+            "ObjectType": "Group"
+          }
+        ]
+      },
+      "Sessions": {
+        "Collected": true,
+        "Results": [
+          {
+            "UserSID": "S-1-5-21-1111111111-2222222222-3333333333-2035",
+            "ComputerSID": "S-1-5-21-1111111111-2222222222-3333333333-1409"
+          }
+        ]
+      }
+    },
+    {
+      "Properties": {
+        "name": "SERVER08.CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-1111111111-2222222222-3333333333-1410"
+      },
+      "ObjectIdentifier": "S-1-5-21-1111111111-2222222222-3333333333-1410",
+      "Aces": [],
+      "LocalAdmins": {
+        "Collected": true,
+        "Results": [
+          {
+            "ObjectIdentifier": "S-1-5-21-1111111111-2222222222-3333333333-1302",
+            "ObjectType": "Group"
+          }
+        ]
+      },
+      "Sessions": {
+        "Collected": true,
+        "Results": []
+      }
+    },
+    {
+      "Properties": {
+        "name": "WKSTN09.CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-1111111111-2222222222-3333333333-1411"
+      },
+      "ObjectIdentifier": "S-1-5-21-1111111111-2222222222-3333333333-1411",
+      "Aces": [],
+      "LocalAdmins": {
+        "Collected": true,
+        "Results": [
+          {
+            "ObjectIdentifier": "S-1-5-21-1111111111-2222222222-3333333333-1303",
+            "ObjectType": "Group"
+          }
+        ]
+      },
+      "Sessions": {
+        "Collected": true,
+        "Results": []
+      }
+    },
+    {
+      "Properties": {
+        "name": "WKSTN10.CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-1111111111-2222222222-3333333333-1412"
+      },
+      "ObjectIdentifier": "S-1-5-21-1111111111-2222222222-3333333333-1412",
+      "Aces": [],
+      "LocalAdmins": {
+        "Collected": true,
+        "Results": [
+          {
+            "ObjectIdentifier": "S-1-5-21-1111111111-2222222222-3333333333-1303",
+            "ObjectType": "Group"
+          }
+        ]
+      },
+      "Sessions": {
+        "Collected": true,
+        "Results": []
+      }
+    },
+    {
+      "Properties": {
+        "name": "WKSTN11.CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-1111111111-2222222222-3333333333-1413"
+      },
+      "ObjectIdentifier": "S-1-5-21-1111111111-2222222222-3333333333-1413",
+      "Aces": [],
+      "LocalAdmins": {
+        "Collected": true,
+        "Results": [
+          {
+            "ObjectIdentifier": "S-1-5-21-1111111111-2222222222-3333333333-1303",
+            "ObjectType": "Group"
+          }
+        ]
+      },
+      "Sessions": {
+        "Collected": true,
+        "Results": []
+      }
+    },
+    {
+      "Properties": {
+        "name": "SERVER12.CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-1111111111-2222222222-3333333333-1414"
+      },
+      "ObjectIdentifier": "S-1-5-21-1111111111-2222222222-3333333333-1414",
+      "Aces": [],
+      "LocalAdmins": {
+        "Collected": true,
+        "Results": [
+          {
+            "ObjectIdentifier": "S-1-5-21-1111111111-2222222222-3333333333-1302",
+            "ObjectType": "Group"
+          }
+        ]
+      },
+      "Sessions": {
+        "Collected": true,
+        "Results": []
+      }
+    },
+    {
+      "Properties": {
+        "name": "WKSTN13.CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-1111111111-2222222222-3333333333-1415"
+      },
+      "ObjectIdentifier": "S-1-5-21-1111111111-2222222222-3333333333-1415",
+      "Aces": [],
+      "LocalAdmins": {
+        "Collected": true,
+        "Results": [
+          {
+            "ObjectIdentifier": "S-1-5-21-1111111111-2222222222-3333333333-1303",
+            "ObjectType": "Group"
+          }
+        ]
+      },
+      "Sessions": {
+        "Collected": true,
+        "Results": []
+      }
+    },
+    {
+      "Properties": {
+        "name": "WKSTN14.CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-1111111111-2222222222-3333333333-1416"
+      },
+      "ObjectIdentifier": "S-1-5-21-1111111111-2222222222-3333333333-1416",
+      "Aces": [],
+      "LocalAdmins": {
+        "Collected": true,
+        "Results": [
+          {
+            "ObjectIdentifier": "S-1-5-21-1111111111-2222222222-3333333333-1303",
+            "ObjectType": "Group"
+          }
+        ]
+      },
+      "Sessions": {
+        "Collected": true,
+        "Results": []
+      }
+    }
+  ],
+  "meta": {
+    "type": "computers",
+    "count": 17,
+    "version": 5
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "data": [
+    {
+      "Properties": { "name": "FILESERVER01.CORP.LOCAL", "domain": "CORP.LOCAL", "objectid": "S-1-5-21-1111111111-2222222222-3333333333-1401" },
+      "ObjectIdentifier": "S-1-5-21-1111111111-2222222222-3333333333-1401",
+      "Aces": [
+        {
+          "PrincipalSID": "S-1-5-21-1111111111-2222222222-3333333333-1302",
+          "PrincipalType": "Group",
+          "RightName": "GenericAll",
+          "IsInherited": false
+        }
+      ],
+      "LocalAdmins": {
+        "Collected": true,
+        "Results": [
+          { "ObjectIdentifier": "S-1-5-21-1111111111-2222222222-3333333333-1201", "ObjectType": "User" },
+          { "ObjectIdentifier": "S-1-5-21-1111111111-2222222222-3333333333-1104", "ObjectType": "User" }
+        ]
+      },
+      "Sessions": {
+        "Collected": true,
+        "Results": [
+          { "UserSID": "S-1-5-21-1111111111-2222222222-3333333333-500", "ComputerSID": "S-1-5-21-1111111111-2222222222-3333333333-1401" }
+        ]
+      }
+    },
+    {
+      "Properties": { "name": "SQL01.CORP.LOCAL", "domain": "CORP.LOCAL", "objectid": "S-1-5-21-1111111111-2222222222-3333333333-1402" },
+      "ObjectIdentifier": "S-1-5-21-1111111111-2222222222-3333333333-1402",
+      "Aces": [],
+      "LocalAdmins": {
+        "Collected": true,
+        "Results": [
+          { "ObjectIdentifier": "S-1-5-21-1111111111-2222222222-3333333333-1202", "ObjectType": "User" }
+        ]
+      },
+      "Sessions": { "Collected": true, "Results": [] }
+    },
+    {
+      "Properties": { "name": "WKSTN05.CORP.LOCAL", "domain": "CORP.LOCAL", "objectid": "S-1-5-21-1111111111-2222222222-3333333333-1403" },
+      "ObjectIdentifier": "S-1-5-21-1111111111-2222222222-3333333333-1403",
+      "Aces": [],
+      "LocalAdmins": {
+        "Collected": true,
+        "Results": [
+          { "ObjectIdentifier": "S-1-5-21-1111111111-2222222222-3333333333-1302", "ObjectType": "Group" }
+        ]
+      },
+      "Sessions": {
+        "Collected": true,
+        "Results": [
+          { "UserSID": "S-1-5-21-1111111111-2222222222-3333333333-1105", "ComputerSID": "S-1-5-21-1111111111-2222222222-3333333333-1403" }
+        ]
+      }
+    },
+    {
+      "Properties": { "name": "DC01.CORP.LOCAL", "domain": "CORP.LOCAL", "objectid": "S-1-5-21-1111111111-2222222222-3333333333-1000" },
+      "ObjectIdentifier": "S-1-5-21-1111111111-2222222222-3333333333-1000",
+      "Aces": [],
+      "LocalAdmins": { "Collected": true, "Results": [] },
+      "Sessions": { "Collected": true, "Results": [] }
+    }
+  ],
+  "meta": { "type": "computers", "count": 4, "version": 5 }
+}

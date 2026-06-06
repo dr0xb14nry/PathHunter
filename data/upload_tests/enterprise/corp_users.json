@@ -1,0 +1,195 @@
+{
+  "data": [
+    {
+      "Properties": {
+        "name": "liam.walsh@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-9001-9002-9003-1100",
+        "enabled": true,
+        "hasspn": false
+      },
+      "ObjectIdentifier": "S-1-5-21-9001-9002-9003-1100",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "olivia.bennett@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-9001-9002-9003-1101",
+        "enabled": true,
+        "hasspn": false
+      },
+      "ObjectIdentifier": "S-1-5-21-9001-9002-9003-1101",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "ethan.brooks@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-9001-9002-9003-1102",
+        "enabled": true,
+        "hasspn": false
+      },
+      "ObjectIdentifier": "S-1-5-21-9001-9002-9003-1102",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "robert.king@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-9001-9002-9003-500",
+        "enabled": true,
+        "hasspn": false
+      },
+      "ObjectIdentifier": "S-1-5-21-9001-9002-9003-500",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "svc-backup@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-9001-9002-9003-1200",
+        "enabled": true,
+        "hasspn": false
+      },
+      "ObjectIdentifier": "S-1-5-21-9001-9002-9003-1200",
+      "Aces": [
+        {
+          "PrincipalSID": "S-1-5-21-9001-9002-9003-1300",
+          "PrincipalType": "Group",
+          "RightName": "ForceChangePassword",
+          "IsInherited": false
+        }
+      ]
+    },
+    {
+      "Properties": {
+        "name": "svc-sql@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-9001-9002-9003-1201",
+        "enabled": true,
+        "hasspn": false
+      },
+      "ObjectIdentifier": "S-1-5-21-9001-9002-9003-1201",
+      "Aces": [
+        {
+          "PrincipalSID": "S-1-5-21-9001-9002-9003-1301",
+          "PrincipalType": "Group",
+          "RightName": "GenericAll",
+          "IsInherited": false
+        }
+      ]
+    },
+    {
+      "Properties": {
+        "name": "svc-tier0@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-9001-9002-9003-1202",
+        "enabled": true,
+        "hasspn": false
+      },
+      "ObjectIdentifier": "S-1-5-21-9001-9002-9003-1202",
+      "Aces": [
+        {
+          "PrincipalSID": "S-1-5-21-9001-9002-9003-1302",
+          "PrincipalType": "Group",
+          "RightName": "GenericAll",
+          "IsInherited": false
+        }
+      ]
+    },
+    {
+      "Properties": {
+        "name": "james.smith@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-9001-9002-9003-2001",
+        "enabled": true,
+        "hasspn": false
+      },
+      "ObjectIdentifier": "S-1-5-21-9001-9002-9003-2001",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "mary.johnson@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-9001-9002-9003-2002",
+        "enabled": true,
+        "hasspn": false
+      },
+      "ObjectIdentifier": "S-1-5-21-9001-9002-9003-2002",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "david.brown@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-9001-9002-9003-2003",
+        "enabled": true,
+        "hasspn": false
+      },
+      "ObjectIdentifier": "S-1-5-21-9001-9002-9003-2003",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "sarah.davis@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-9001-9002-9003-2004",
+        "enabled": true,
+        "hasspn": false
+      },
+      "ObjectIdentifier": "S-1-5-21-9001-9002-9003-2004",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "michael.garcia@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-9001-9002-9003-2005",
+        "enabled": true,
+        "hasspn": false
+      },
+      "ObjectIdentifier": "S-1-5-21-9001-9002-9003-2005",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "linda.miller@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-9001-9002-9003-2006",
+        "enabled": true,
+        "hasspn": false
+      },
+      "ObjectIdentifier": "S-1-5-21-9001-9002-9003-2006",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "emily.wilson@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-9001-9002-9003-2007",
+        "enabled": true,
+        "hasspn": false
+      },
+      "ObjectIdentifier": "S-1-5-21-9001-9002-9003-2007",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "thomas.moore@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-9001-9002-9003-2008",
+        "enabled": true,
+        "hasspn": false
+      },
+      "ObjectIdentifier": "S-1-5-21-9001-9002-9003-2008",
+      "Aces": []
+    }
+  ],
+  "meta": {
+    "type": "users",
+    "count": 15,
+    "version": 5
+  }
+}

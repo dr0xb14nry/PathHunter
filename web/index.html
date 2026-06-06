@@ -1,0 +1,738 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>PathHunter — Dashboard</title>
+<style>
+  :root{--bg:#0a0c10;--bg2:#0e1117;--card:#141823;--card2:#1a1f2b;--border:#232a38;
+        --text:#e9ecf3;--muted:#7e8699;--soft:#bcc4d4;--accent:#ff4757;--accentdim:#ff47571a;
+        --green:#2ed573;--yellow:#ffa502;--blue:#54a0ff;--purple:#a55eea;--teal:#1dd1a1;}
+  *{box-sizing:border-box;margin:0;padding:0;}
+  body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;
+       background:var(--bg);color:var(--text);font-size:14px;height:100vh;overflow:hidden;}
+  .app{display:flex;height:100vh;}
+  .side{width:190px;flex-shrink:0;background:var(--bg2);border-right:1px solid var(--border);padding:16px 11px;}
+  .logo{display:flex;align-items:center;gap:9px;padding:6px 8px 18px;}
+  .mark{width:30px;height:30px;border-radius:8px;background:linear-gradient(135deg,var(--accent),#b5172a);
+        display:grid;place-items:center;font-size:16px;box-shadow:0 0 16px #ff475755;}
+  .nm{font-weight:800;font-size:14px;line-height:1.1;}.nm span{display:block;font-size:10px;color:var(--muted);font-weight:500;}
+  .nav a{display:flex;gap:9px;padding:9px 11px;border-radius:9px;color:var(--muted);font-size:13px;margin-bottom:2px;cursor:pointer;}
+  .nav a:hover{background:#ffffff08;color:var(--text);}
+  .nav a.on{background:var(--accentdim);color:#fff;border:1px solid #ff475744;}
+  .main{flex:1;min-width:0;display:flex;flex-direction:column;}
+  .topbar{display:flex;align-items:center;gap:12px;padding:12px 18px;border-bottom:1px solid var(--border);background:var(--bg2);flex-wrap:wrap;}
+  .topbar h1{font-size:15px;}.topbar .sub{font-size:12px;color:var(--muted);}
+  .grow{flex:1;}
+  input.q{background:var(--card);border:1px solid var(--border);color:var(--text);border-radius:8px;padding:7px 11px;font-size:13px;width:120px;outline:none;}
+  input.q:focus{border-color:var(--accent);}
+  select.sel{background:var(--card);border:1px solid var(--border);color:var(--soft);border-radius:8px;padding:7px 9px;font-size:12.5px;cursor:pointer;outline:none;}
+  select.sel:focus{border-color:var(--accent);}
+  .modebtn{background:var(--card);border:1px solid var(--border);color:var(--soft);padding:7px 12px;border-radius:8px;font-size:12.5px;cursor:pointer;font-weight:600;}
+  .modebtn.on{background:var(--accent);border-color:var(--accent);color:#fff;}
+  .btn{background:var(--accent);border:none;color:#fff;padding:7px 14px;border-radius:8px;font-weight:600;font-size:13px;cursor:pointer;}
+  .iconbtn{background:var(--card);border:1px solid var(--border);color:var(--soft);width:30px;height:30px;border-radius:8px;cursor:pointer;font-size:14px;line-height:1;}
+  .iconbtn:hover{color:#fff;border-color:var(--accent);}
+  a.linkbtn{display:inline-block;background:var(--card);border:1px solid var(--border);color:var(--soft);padding:7px 12px;border-radius:8px;font-size:12.5px;font-weight:600;text-decoration:none;}
+  a.linkbtn:hover{color:#fff;border-color:var(--accent);}
+  #gpanel:fullscreen{background:var(--bg);}
+  #gpanel:fullscreen .graphwrap{height:calc(100vh - 92px);}
+  #gpanel:fullscreen svg.graph{height:100%;}
+  .content{padding:14px 18px;overflow:auto;flex:1;}
+  .view{display:none;}.view.on{display:block;}
+  .kpis{display:grid;grid-template-columns:repeat(4,1fr);gap:11px;margin-bottom:14px;}
+  .kpi{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:12px 15px;}
+  .kpi .lbl{font-size:10.5px;text-transform:uppercase;letter-spacing:.5px;color:var(--muted);margin-bottom:5px;}
+  .kpi .val{font-size:23px;font-weight:800;line-height:1;}
+  .kpi.crit .val{color:var(--accent);}
+  .row{display:grid;grid-template-columns:1.7fr 1fr;gap:14px;}
+  @media(max-width:980px){.row{grid-template-columns:1fr;}}
+  .panel{background:var(--card);border:1px solid var(--border);border-radius:13px;overflow:hidden;display:flex;flex-direction:column;}
+  .phead{display:flex;align-items:center;gap:9px;padding:11px 15px;border-bottom:1px solid var(--border);}
+  .phead h3{font-size:14px;}.phead .tag{margin-left:auto;font-size:11.5px;color:var(--muted);}
+  .graphwrap{background:radial-gradient(560px 280px at 60% 35%,#13202e,#0d1017);}
+  svg.graph{width:100%;height:470px;display:block;cursor:grab;}
+  .edge{stroke:#2c3444;stroke-width:1.5;}
+  .edge.hl{stroke:url(#pathgrad);stroke-width:3.8;stroke-linecap:round;stroke-dasharray:9 6;animation:flow 1.1s linear infinite;}
+  @keyframes flow{to{stroke-dashoffset:-30;}}
+  .node{cursor:pointer;}
+  .node circle{fill:#161a23;stroke-width:2.3;transition:.12s;}
+  .node:hover circle{stroke-width:4.5;}
+  .n-user circle{stroke:var(--blue);} .n-group circle{stroke:var(--purple);}
+  .n-computer circle{stroke:var(--teal);} .n-domain circle{stroke:var(--yellow);}
+  .node.onpath circle{stroke:var(--accent);stroke-width:3.3;filter:url(#glow);}
+  .node.target circle{stroke:var(--accent);stroke-width:4;fill:#2a0d12;filter:url(#glow);}
+  .edge.faint{stroke:#19202e;stroke-width:1;}
+  .node.faded{opacity:.18;}
+  .node.faded:hover{opacity:1;}
+  .node g{pointer-events:none;}                 /* clicks fall through icon to the node */
+  .node .lab{fill:var(--soft);font-size:10px;text-anchor:middle;pointer-events:none;}
+  .legend{display:flex;gap:13px;padding:9px 15px;border-top:1px solid var(--border);font-size:11px;color:var(--muted);flex-wrap:wrap;align-items:center;}
+  .legend span{display:flex;align-items:center;gap:5px;}.lg{width:9px;height:9px;border-radius:50%;}
+  .legend .hint{margin-left:auto;color:var(--accent);}
+  .steps{padding:6px 15px 14px;overflow:auto;}
+  .step{display:flex;align-items:center;gap:10px;padding:9px 0;border-bottom:1px solid var(--border);}
+  .step:last-child{border:none;}
+  .stepn{width:23px;height:23px;border-radius:50%;background:var(--accentdim);color:var(--accent);display:grid;place-items:center;font-weight:700;font-size:11px;flex-shrink:0;border:1px solid #ff475744;}
+  .stepmid{flex:1;min-width:0;}.hop{font-weight:600;font-size:13px;}.hop .arr{color:var(--accent);}
+  .tech{font-size:11.5px;color:var(--muted);}
+  .techname{color:var(--soft);}
+  .note{font-size:11.5px;color:var(--muted);margin-top:3px;line-height:1.4;font-style:italic;opacity:.85;}
+  .mitre{font-size:9.5px;font-weight:700;padding:2px 6px;border-radius:5px;background:#54a0ff1f;color:var(--blue);border:1px solid #54a0ff33;white-space:nowrap;}
+  .noise{font-size:9.5px;font-weight:700;padding:2px 7px;border-radius:5px;white-space:nowrap;border:1px solid var(--border);}
+  .noise.lo{color:var(--green);}.noise.md{color:var(--yellow);}.noise.hi{color:var(--accent);}
+  .muted{color:var(--muted);padding:14px 0;font-size:13px;}
+  .pathcols{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;}
+  @media(max-width:980px){.pathcols{grid-template-columns:1fr;}}
+  .pmeta2{padding:9px 15px;color:var(--soft);font-size:12.5px;border-bottom:1px solid var(--border);background:var(--card2);}
+  .pmeta2 b{color:var(--text);}
+  .expl{padding:10px 15px;border-top:1px solid var(--border);font-size:12.5px;color:var(--soft);background:var(--card2);}
+  pre{background:#0a0d12;border:1px solid var(--border);border-radius:10px;padding:14px;color:var(--soft);
+      font-size:12px;white-space:pre-wrap;font-family:Consolas,monospace;max-height:60vh;overflow:auto;margin-top:4px;}
+</style>
+</head>
+<body>
+<div class="app">
+  <aside class="side">
+    <div class="logo"><div class="mark">🩸</div><div class="nm">PathHunter<span>AD Attack Engine</span></div></div>
+    <div class="nav" id="nav">
+      <a class="on" data-v="dash">📊 Dashboard</a>
+      <a data-v="graph">🕸️ Graph</a>
+      <a data-v="paths">🎯 Attack Paths</a>
+      <a data-v="report">📑 Reports</a>
+    </div>
+  </aside>
+
+  <div class="main">
+    <div class="topbar">
+      <div><h1 id="vtitle">Domain Risk Dashboard</h1><div class="sub">click a node to target it · switch modes →</div></div>
+      <div class="grow"></div>
+      <input class="q" id="start" placeholder="start" value="alice"/>
+      <span style="color:var(--muted)">→</span>
+      <input class="q" id="target" placeholder="target" value="daadmin"/>
+      <select class="sel" id="profile" title="Environment profile — shifts scoring to the situation" onchange="analyze()"></select>
+      <button class="modebtn on" data-m="fast" onclick="setMode(this)">⚡ Fast</button>
+      <button class="modebtn" data-m="stealth" onclick="setMode(this)">🤫 Stealth</button>
+      <button class="modebtn" data-m="reliable" onclick="setMode(this)">✅ Reliable</button>
+      <button class="btn" onclick="analyze()">Analyze</button>
+      <a class="linkbtn" href="/upload" title="Upload your own BloodHound JSON">⬆ Upload</a>
+    </div>
+
+    <div class="content">
+      <!-- DASHBOARD VIEW -->
+      <div class="view on" id="view-dash">
+        <div class="kpis">
+          <div class="kpi"><div class="lbl">Nodes</div><div class="val" id="kNodes">–</div></div>
+          <div class="kpi"><div class="lbl">Relationships</div><div class="val" id="kEdges">–</div></div>
+          <div class="kpi crit"><div class="lbl">Hops</div><div class="val" id="kHops">–</div></div>
+          <div class="kpi crit"><div class="lbl">Total noise</div><div class="val" id="kNoise">–</div></div>
+        </div>
+        <div class="row">
+          <div class="panel" id="gpanel">
+            <div class="phead"><h3>🕸️ Attack Graph</h3><span class="tag" id="gtag">—</span><button class="iconbtn" onclick="toggleFullscreen()" title="Fullscreen graph">⛶</button></div>
+            <div class="graphwrap">
+              <svg class="graph" id="svg" viewBox="0 0 1120 520" preserveAspectRatio="xMidYMid meet"></svg>
+            </div>
+            <div class="legend">
+              <span><i class="lg" style="background:var(--accent)"></i>path</span>
+              <span><i class="lg" style="background:var(--blue)"></i>user</span>
+              <span><i class="lg" style="background:var(--purple)"></i>group</span>
+              <span><i class="lg" style="background:var(--teal)"></i>computer</span>
+              <span><i class="lg" style="background:var(--yellow)"></i>domain</span>
+              <span class="hint">drag node to move · click = target · scroll zoom · pan empty space · <a onclick="resetLayout()" style="color:inherit;cursor:pointer;text-decoration:underline;">↻ reset layout</a></span>
+            </div>
+          </div>
+          <div class="panel">
+            <div class="phead"><h3>🎯 Recommended Path</h3><span class="tag" id="modeTag">fast</span></div>
+            <div class="steps" id="steps"><p class="muted">Loading…</p></div>
+            <div class="expl" id="expl"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ATTACK PATHS VIEW (all three objectives side by side) -->
+      <div class="view" id="view-paths">
+        <p class="muted" id="pathsHdr" style="padding:0 0 12px;">…</p>
+        <div class="pathcols" id="pathcols"></div>
+      </div>
+
+      <!-- REPORT VIEW -->
+      <div class="view" id="view-report">
+        <div class="panel" style="max-width:900px;">
+          <div class="phead"><h3>📑 Engagement Report</h3><span class="tag">all objectives</span></div>
+          <div style="padding:14px 15px;">
+            <p class="muted" style="padding:0 0 12px;">Generated from the current <b id="repTgt">start → target</b> across all three objectives.</p>
+            <div style="display:flex;gap:10px;margin-bottom:6px;">
+              <button class="btn" onclick="genReport()">⚙ Generate report</button>
+              <button class="modebtn" onclick="copyReport()">⧉ Copy</button>
+              <button class="modebtn" onclick="downloadHTMLReport()">⬇ Download HTML</button>
+            </div>
+            <pre id="rep">Click "Generate report".</pre>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+let NODES=[], EDGES=[], POS={}, MODE="fast";
+let view={s:1, x:0, y:0}, panStart=null;            // pan/zoom state
+let pathOrder=[];                                    // current highlighted path (ordered start..target)
+let pinned=new Set();                                // node ids the user has manually placed via drag
+let dragNodeId=null, dragStartScreen=null, dragMoved=false;
+let _adj=null;                                       // cached neighbour adjacency (rebuilt per graph)
+const prof=()=>(document.getElementById("profile").value||"default");   // active environment profile
+
+async function loadProfiles(){
+  try{
+    const list=await (await fetch("/api/profiles")).json();
+    const sel=document.getElementById("profile");
+    sel.innerHTML=list.map(p=>`<option value="${p}">${p==="default"?"env: default":p}</option>`).join("");
+  }catch(e){ /* /api/profiles is optional */ }
+}
+
+// ---- crisp inline-SVG node icons (no emoji -> renders identically everywhere) ----
+// Each returns SVG shapes centred on (cx,cy), scaled to the node radius r, so the
+// glyph always fits inside the circle and never looks oversized.
+function nodeIcon(type, label, cx, cy, r){
+  const c="#eef2f8", dk="#161a23";          // glyph colour + circle bg (for cut-outs)
+  const t=(type||"").toLowerCase();
+  if(t==="user"){
+    return `<g fill="${c}"><circle cx="${cx}" cy="${cy-0.27*r}" r="${0.26*r}"/>`
+         + `<path d="M${cx-0.46*r} ${cy+0.5*r} a ${0.46*r} ${0.42*r} 0 0 1 ${0.92*r} 0 Z"/></g>`;
+  }
+  if(t==="group"){
+    return `<g fill="${c}"><circle cx="${cx-0.26*r}" cy="${cy-0.2*r}" r="${0.2*r}"/>`
+         + `<circle cx="${cx+0.26*r}" cy="${cy-0.2*r}" r="${0.2*r}"/>`
+         + `<path d="M${cx-0.6*r} ${cy+0.5*r} a ${0.6*r} ${0.46*r} 0 0 1 ${1.2*r} 0 Z"/></g>`;
+  }
+  if(t==="computer"){
+    const nm=(label||"").toUpperCase();
+    const isServer=nm.startsWith("DC")||/SERVER|SRV|SQL|EXCH|(^|[^A-Z])FS\d/.test(nm);
+    if(isServer){                              // server: stacked rack units + status LEDs
+      return `<g fill="${c}"><rect x="${cx-0.5*r}" y="${cy-0.46*r}" width="${r}" height="${0.38*r}" rx="${0.07*r}"/>`
+           + `<rect x="${cx-0.5*r}" y="${cy+0.07*r}" width="${r}" height="${0.38*r}" rx="${0.07*r}"/>`
+           + `<circle cx="${cx-0.32*r}" cy="${cy-0.27*r}" r="${0.055*r}" fill="${dk}"/>`
+           + `<circle cx="${cx-0.32*r}" cy="${cy+0.26*r}" r="${0.055*r}" fill="${dk}"/></g>`;
+    }
+    return `<g fill="${c}"><rect x="${cx-0.55*r}" y="${cy-0.5*r}" width="${1.1*r}" height="${0.7*r}" rx="${0.09*r}"/>`
+         + `<rect x="${cx-0.45*r}" y="${cy-0.41*r}" width="${0.9*r}" height="${0.52*r}" rx="${0.04*r}" fill="${dk}"/>`
+         + `<rect x="${cx-0.12*r}" y="${cy+0.22*r}" width="${0.24*r}" height="${0.14*r}"/>`
+         + `<rect x="${cx-0.33*r}" y="${cy+0.38*r}" width="${0.66*r}" height="${0.1*r}" rx="${0.05*r}"/></g>`;
+  }
+  if(t==="domain"){
+    const sw=Math.max(1,0.09*r);
+    return `<g fill="none" stroke="${c}" stroke-width="${sw}"><circle cx="${cx}" cy="${cy}" r="${0.52*r}"/>`
+         + `<ellipse cx="${cx}" cy="${cy}" rx="${0.26*r}" ry="${0.52*r}"/>`
+         + `<line x1="${cx-0.52*r}" y1="${cy}" x2="${cx+0.52*r}" y2="${cy}"/></g>`;
+  }
+  if(t==="gpo"){
+    return `<g fill="${c}"><rect x="${cx-0.4*r}" y="${cy-0.52*r}" width="${0.8*r}" height="${1.04*r}" rx="${0.08*r}"/>`
+         + `<rect x="${cx-0.26*r}" y="${cy-0.28*r}" width="${0.52*r}" height="${0.08*r}" fill="${dk}"/>`
+         + `<rect x="${cx-0.26*r}" y="${cy-0.06*r}" width="${0.52*r}" height="${0.08*r}" fill="${dk}"/>`
+         + `<rect x="${cx-0.26*r}" y="${cy+0.16*r}" width="${0.36*r}" height="${0.08*r}" fill="${dk}"/></g>`;
+  }
+  if(t==="ou"||t==="container"){
+    return `<g fill="${c}"><path d="M${cx-0.5*r} ${cy-0.26*r} h ${0.3*r} l ${0.1*r} ${0.12*r} h ${0.6*r} v ${0.54*r} h ${-r} Z"/></g>`;
+  }
+  if(t.includes("ca")||t.includes("cert")||t.includes("auth")||t.includes("policy")){
+    return `<g fill="${c}"><circle cx="${cx}" cy="${cy-0.14*r}" r="${0.34*r}"/>`
+         + `<circle cx="${cx}" cy="${cy-0.14*r}" r="${0.15*r}" fill="${dk}"/>`
+         + `<path d="M${cx-0.17*r} ${cy+0.12*r} l ${-0.05*r} ${0.42*r} l ${0.22*r} ${-0.15*r} l ${0.22*r} ${0.15*r} l ${-0.05*r} ${-0.42*r} Z"/></g>`;
+  }
+  // unknown / other -> a neutral rounded square so it still reads as a "thing"
+  return `<g fill="none" stroke="${c}" stroke-width="${Math.max(1,0.1*r)}">`
+       + `<rect x="${cx-0.34*r}" y="${cy-0.34*r}" width="${0.68*r}" height="${0.68*r}" rx="${0.12*r}"/></g>`;
+}
+
+// ---- force-directed layout (Fruchterman-Reingold), deterministic seed ----
+// Spreads any-size graph out so nodes don't overlap. Computed once on load.
+function layout(nodes, edges){
+  const W=1120, H=520;
+  let s=987654321; const rnd=()=>{ s=(s*1664525+1013904223)>>>0; return s/4294967296; };
+  const pos={}; nodes.forEach(nd=>{ pos[nd.id]={ x:W/2+(rnd()-0.5)*W*0.8, y:H/2+(rnd()-0.5)*H*0.8, dx:0, dy:0 }; });
+  const links=edges.filter(e=>pos[e.source]&&pos[e.target]);
+  const k=Math.sqrt((W*H)/Math.max(nodes.length,1))*0.55;   // ideal node spacing
+  let temp=W*0.12;
+  const iters=nodes.length>400?110:(nodes.length>200?170:(nodes.length>40?320:180));
+  for(let it=0; it<iters; it++){
+    nodes.forEach(v=>{ pos[v.id].dx=0; pos[v.id].dy=0; });
+    for(let i=0;i<nodes.length;i++) for(let j=i+1;j<nodes.length;j++){   // repulsion
+      const a=pos[nodes[i].id], b=pos[nodes[j].id];
+      let ddx=a.x-b.x, ddy=a.y-b.y, d=Math.hypot(ddx,ddy)||0.01;
+      const f=k*k/d, ux=ddx/d, uy=ddy/d;
+      a.dx+=ux*f; a.dy+=uy*f; b.dx-=ux*f; b.dy-=uy*f;
+    }
+    links.forEach(e=>{                                                  // attraction
+      const a=pos[e.source], b=pos[e.target];
+      let ddx=a.x-b.x, ddy=a.y-b.y, d=Math.hypot(ddx,ddy)||0.01;
+      const f=d*d/k, ux=ddx/d, uy=ddy/d;
+      a.dx-=ux*f; a.dy-=uy*f; b.dx+=ux*f; b.dy+=uy*f;
+    });
+    // gravity toward the centre: stops disconnected nodes (e.g. an isolated
+    // computer) from drifting off and blowing up the bounding box.
+    nodes.forEach(v=>{ const p=pos[v.id]; p.dx+=(W/2-p.x)*0.03; p.dy+=(H/2-p.y)*0.03; });
+    nodes.forEach(v=>{                                                  // move + cool
+      const p=pos[v.id], d=Math.hypot(p.dx,p.dy)||0.01;
+      p.x+=(p.dx/d)*Math.min(d,temp); p.y+=(p.dy/d)*Math.min(d,temp);
+    });
+    temp*=0.975;
+  }
+  // 1) Independent X/Y stretch -> open the layout up to fill the WIDE canvas
+  //    on both axes (not a small square blob in the centre).
+  const pad=56;
+  const xs=nodes.map(nd=>pos[nd.id].x), ys=nodes.map(nd=>pos[nd.id].y);
+  const minx=Math.min(...xs), maxx=Math.max(...xs), miny=Math.min(...ys), maxy=Math.max(...ys);
+  const sx=(W-2*pad)/Math.max(maxx-minx,1), sy=(H-2*pad)/Math.max(maxy-miny,1);
+  const out={};
+  nodes.forEach(nd=>{ const p=pos[nd.id]; out[nd.id]={ x:pad+(p.x-minx)*sx, y:pad+(p.y-miny)*sy }; });
+
+  // 2) Collision in SCREEN space (with bounds) -> keeps the wide spread but
+  //    guarantees no two node circles overlap.
+  // Spacing adapts to node count so a big graph never asks for more room than
+  // the canvas has (otherwise nodes pile up and overlap).
+  const area=(W-2*pad)*(H-2*pad);
+  const fitSep=Math.sqrt(area/Math.max(nodes.length,1))*0.9;       // largest spacing that fits
+  const minSep=Math.max(18, Math.min(nodes.length>25?56:64, fitSep));
+  for(let pass=0; pass<160; pass++){
+    let moved=false;
+    for(let i=0;i<nodes.length;i++) for(let j=i+1;j<nodes.length;j++){
+      const a=out[nodes[i].id], b=out[nodes[j].id];
+      let dx=a.x-b.x, dy=a.y-b.y, d=Math.hypot(dx,dy);
+      if(d<0.01){ dx=rnd()-0.5; dy=rnd()-0.5; d=Math.hypot(dx,dy)||0.01; }   // exact overlap -> nudge
+      if(d<minSep){
+        const push=(minSep-d)/2, ux=dx/d, uy=dy/d;
+        a.x+=ux*push; a.y+=uy*push; b.x-=ux*push; b.y-=uy*push; moved=true;
+      }
+    }
+    nodes.forEach(nd=>{ const p=out[nd.id]; p.x=Math.max(pad,Math.min(W-pad,p.x)); p.y=Math.max(pad,Math.min(H-pad,p.y)); });
+    if(!moved) break;
+  }
+  return out;
+}
+
+function renderGraph(hlNodes, hlEdges, targetId){
+  // On big graphs we declutter: only the attack-path nodes get an icon+label;
+  // the rest become small dim dots (label still shows on hover via <title>).
+  const big = NODES.length > 25;
+  const hasPath = hlNodes.size > 0;
+  // Adaptive radii: shrink BOTH path and dim nodes on big graphs so they
+  // fit the tight spacing the canvas allows (otherwise path nodes overlap).
+  const r_dim  = NODES.length>150 ? 9  : (big ? 13 : 19);
+  const r_path = NODES.length>400 ? 12 : (NODES.length>150 ? 14 : 19);
+
+  // Render-only positions: copy POS, then push the path nodes apart locally
+  // for legibility -- WITHOUT permanently changing the settled layout, so
+  // non-path nodes stay put and modes don't jitter.
+  const rp={}; for(const id in POS){ const p=POS[id]; rp[id]={x:p.x, y:p.y}; }
+  if(hasPath){
+    // Keep path nodes in their organic force-layout positions (Obsidian-like)
+    // but spread them apart enough that labels never collide. Pinned (manually
+    // dragged) nodes are skipped — your placement wins.
+    const ids=[...hlNodes].filter(id => !pinned.has(id));
+    const sep = Math.max(60, 2*r_path + 36);    // edge-to-edge gap for label room
+    const W=1120, H=520, pad=40;
+    for(let pass=0; pass<80; pass++){
+      let moved=false;
+      for(let i=0;i<ids.length;i++) for(let j=i+1;j<ids.length;j++){
+        const a=rp[ids[i]], b=rp[ids[j]]; if(!a||!b) continue;
+        let dx=a.x-b.x, dy=a.y-b.y, d=Math.hypot(dx,dy)||0.01;
+        if(d<sep){
+          const push=(sep-d)/2, ux=dx/d, uy=dy/d;
+          a.x+=ux*push; a.y+=uy*push; b.x-=ux*push; b.y-=uy*push;
+          moved=true;
+        }
+      }
+      ids.forEach(id=>{ const p=rp[id]; p.x=Math.max(pad,Math.min(W-pad,p.x)); p.y=Math.max(pad,Math.min(H-pad,p.y)); });
+      if(!moved) break;
+    }
+  }
+
+  let e="", n="";
+  EDGES.forEach(ed=>{
+    const a=rp[ed.source], b=rp[ed.target]; if(!a||!b) return;
+    const hl=hlEdges.has(ed.source+"|"+ed.target);
+    const cls = hl ? "edge hl" : ((hasPath||big) ? "edge faint" : "edge");
+    e+=`<line class="${cls}" x1="${a.x}" y1="${a.y}" x2="${b.x}" y2="${b.y}"/>`;
+  });
+  NODES.forEach(nd=>{
+    const p=rp[nd.id]; if(!p) return;
+    const onPath=hlNodes.has(nd.id);
+    let cls="node n-"+nd.type.toLowerCase();
+    if(onPath) cls+=" onpath";
+    if(nd.id===targetId) cls+=" target";
+    if(hasPath && !onPath) cls+=" faded";
+    const r = onPath ? r_path : r_dim;
+    let inner=`<circle cx="${p.x}" cy="${p.y}" r="${r}"/>`
+            + nodeIcon(nd.type, nd.label, p.x, p.y, r)
+            + `<title>${nd.label}</title>`;
+    if(!big || onPath){
+      inner+=`<text class="lab" x="${p.x}" y="${p.y+r+13}">${nd.label}</text>`;
+    }
+    n+=`<g class="${cls}" data-id="${nd.id}" data-label="${nd.label}">${inner}</g>`;
+  });
+  // Wrap everything in a pan/zoom group so scroll-zoom and drag-pan work.
+  // <defs> add a soft glow for path nodes and a green->red gradient for the
+  // highlighted path line (visualises the escalation).
+  document.getElementById("svg").innerHTML=
+    `<defs>
+       <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
+         <feGaussianBlur stdDeviation="2.4" result="b"/>
+         <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+       </filter>
+       <linearGradient id="pathgrad" x1="0" y1="0" x2="1" y2="1">
+         <stop offset="0" stop-color="#2ed573"/><stop offset="0.5" stop-color="#ffa502"/><stop offset="1" stop-color="#ff4757"/>
+       </linearGradient>
+     </defs>
+     <g id="vp" transform="translate(${view.x} ${view.y}) scale(${view.s})">${e}${n}</g>`;
+}
+
+const noiseCls=d=>d<=2?"lo":d<=5?"md":"hi";
+
+async function loadGraph(){
+  const g=await (await fetch("/api/graph")).json();
+  NODES=g.nodes; EDGES=g.edges; POS=layout(NODES,EDGES);
+  _adj=null;                                            // rebuild neighbour cache for new graph
+  document.getElementById("kNodes").textContent=NODES.length;
+  document.getElementById("kEdges").textContent=EDGES.length;
+  renderGraph(new Set(), new Set(), null);
+}
+
+async function analyze(){
+  const start=(document.getElementById("start").value||"alice").trim();
+  const target=(document.getElementById("target").value||"daadmin").trim();
+  document.getElementById("modeTag").textContent=MODE;
+  const data=await (await fetch(`/api/paths?start=${encodeURIComponent(start)}&target=${encodeURIComponent(target)}&mode=${MODE}&profile=${encodeURIComponent(prof())}`)).json();
+  const stepsEl=document.getElementById("steps"), expl=document.getElementById("expl");
+  if(data.error){ stepsEl.innerHTML=`<p class="muted">${data.error}</p>`; expl.textContent=""; renderGraph(new Set(),new Set(),null); return; }
+  document.getElementById("gtag").textContent=
+    `${data.start} → ${data.target}` + (data.total_paths!=null ? ` · ${data.total_paths}${data.total_paths>=25?'+':''} paths` : "");
+  const p=data.paths[MODE];
+  const targetId=(p&&p.node_ids.length)?p.node_ids[p.node_ids.length-1]:null;
+  if(!p){ stepsEl.innerHTML=`<p class="muted">No ${MODE} path to ${data.target} found. 🎉 Try another node.</p>`; expl.textContent=""; document.getElementById("kHops").textContent="–"; document.getElementById("kNoise").textContent="–"; renderGraph(new Set(),new Set(),null); return; }
+  document.getElementById("kHops").textContent=p.hops;
+  document.getElementById("kNoise").textContent=p.noise;
+  pathOrder = p.node_ids;
+  const hlNodes=new Set(p.node_ids), hlEdges=new Set();
+  for(let i=0;i<p.node_ids.length-1;i++) hlEdges.add(p.node_ids[i]+"|"+p.node_ids[i+1]);
+  renderGraph(hlNodes,hlEdges,targetId);
+  stepsEl.innerHTML=p.steps.map((s,i)=>`
+    <div class="step"><div class="stepn">${i+1}</div>
+      <div class="stepmid">
+        <div class="hop">${s.from} <span class="arr">→</span> ${s.to}</div>
+        <div class="tech">${s.kind}${s.name?` <span class="techname">— ${s.name}</span>`:''}</div>
+        ${s.note?`<div class="note">${s.note}</div>`:''}
+      </div>
+      <span class="mitre">${s.mitre}</span><span class="noise ${noiseCls(s.detection)}">${s.detection}</span>
+    </div>`).join("");
+  const verdict = p.noise<=6 ? "very quiet" : p.noise<=12 ? "moderately noisy" : "loud / likely to be detected";
+  expl.textContent=`This ${MODE} route takes ${p.hops} hop(s) with total detection noise ${p.noise} — ${verdict}.`;
+  if(document.getElementById("view-paths").classList.contains("on")) renderPaths();
+}
+
+function setMode(btn){
+  document.querySelectorAll(".modebtn").forEach(b=>b.classList.remove("on"));
+  btn.classList.add("on"); MODE=btn.dataset.m; analyze();
+}
+
+// Re-render the current path/state (used after a drag updates POS).
+function renderCurrent(){
+  if(pathOrder.length){
+    const hlN=new Set(pathOrder), hlE=new Set();
+    for(let i=0;i<pathOrder.length-1;i++) hlE.add(pathOrder[i]+"|"+pathOrder[i+1]);
+    renderGraph(hlN, hlE, pathOrder[pathOrder.length-1]);
+  } else {
+    renderGraph(new Set(), new Set(), null);
+  }
+}
+
+// Throw away any manual placements and recompute the layout from scratch.
+function resetLayout(){
+  pinned.clear();
+  POS = layout(NODES, EDGES);
+  renderCurrent();
+}
+
+// Build the neighbour adjacency once per loaded graph (used by drag ripple).
+function buildAdjacency(){
+  _adj = {};
+  for(const id in POS) _adj[id] = [];
+  EDGES.forEach(e => {
+    if(_adj[e.source]) _adj[e.source].push(e.target);
+    if(_adj[e.target]) _adj[e.target].push(e.source);
+  });
+}
+
+// Obsidian-style: when a node is dragged, its connected neighbours follow it
+// (with diminishing pull per hop), then a quick collision pass on the moved
+// nodes restores a fixed minimum distance so they never sit on top of each
+// other. Non-connected and pinned (other) nodes stay put.
+function rippleFromDrag(draggedId, dx, dy){
+  if(!_adj) buildAdjacency();
+  const FALLOFF=0.55, MIN_F=0.05;          // each edge passes 55% of the drag; stop below 5%
+  const factor={[draggedId]:1.0};
+  const q=[draggedId];
+  while(q.length){
+    const id=q.shift();
+    const nf=factor[id]*FALLOFF;
+    if(nf<MIN_F) continue;
+    for(const nb of (_adj[id] || [])){
+      if(nb in factor) continue;            // already moved
+      if(pinned.has(nb) && nb !== draggedId) continue;   // pinned nodes (other than this one) stay
+      if(!POS[nb]) continue;
+      factor[nb]=nf;
+      POS[nb].x += dx * nf;
+      POS[nb].y += dy * nf;
+      q.push(nb);
+    }
+  }
+  // Fixed-distance collision pass on the moved set (keeps spacing consistent).
+  const moved=Object.keys(factor);
+  const sep=Math.max(40, 2*(NODES.length>400?12:(NODES.length>150?14:19))+18);
+  for(let pass=0; pass<6; pass++){
+    let any=false;
+    for(let i=0;i<moved.length;i++) for(let j=i+1;j<moved.length;j++){
+      const a=POS[moved[i]], b=POS[moved[j]]; if(!a||!b) continue;
+      let ddx=a.x-b.x, ddy=a.y-b.y, d=Math.hypot(ddx,ddy)||0.01;
+      if(d<sep){
+        const push=(sep-d)/2, ux=ddx/d, uy=ddy/d;
+        // never move the dragged node itself
+        if(moved[i] !== draggedId){ a.x+=ux*push; a.y+=uy*push; any=true; }
+        if(moved[j] !== draggedId){ b.x-=ux*push; b.y-=uy*push; any=true; }
+      }
+    }
+    if(!any) break;
+  }
+  // Bounds clamp on moved nodes.
+  const W=1120, H=520, pad=20;
+  moved.forEach(id=>{ const p=POS[id]; p.x=Math.max(pad,Math.min(W-pad,p.x)); p.y=Math.max(pad,Math.min(H-pad,p.y)); });
+}
+
+// Click a graph node -> make it the target and re-analyze.
+function setTarget(label){
+  document.getElementById("target").value=label;
+  showView("dash");
+  analyze();
+}
+
+// ---- view switching (sidebar nav) ----
+function showView(v){
+  document.querySelectorAll(".view").forEach(x=>x.classList.toggle("on", x.id==="view-"+v));
+  const titles={report:"Engagement Report", paths:"Attack Paths", dash:"Domain Risk Dashboard"};
+  document.getElementById("vtitle").textContent = titles[v] || "Domain Risk Dashboard";
+  if(v==="report") genReport();
+  if(v==="paths") renderPaths();
+}
+
+// ---- Attack Paths view: all three ranked routes side by side ----
+async function renderPaths(){
+  const start=(document.getElementById("start").value||"alice").trim();
+  const target=(document.getElementById("target").value||"daadmin").trim();
+  const data=await (await fetch(`/api/paths?start=${encodeURIComponent(start)}&target=${encodeURIComponent(target)}&mode=all&profile=${encodeURIComponent(prof())}`)).json();
+  const hdr=document.getElementById("pathsHdr"), cont=document.getElementById("pathcols");
+  if(data.error){ hdr.textContent=data.error; cont.innerHTML=""; return; }
+  hdr.innerHTML=`<b style="color:var(--text)">${data.start} → ${data.target}</b> &nbsp;·&nbsp; `
+    + `${data.total_paths}${data.total_paths>=25?'+':''} paths found — comparing the 3 smartest`;
+  const defs={fast:["⚡ Fastest","fewest hops"], stealth:["🤫 Stealthiest","least noise"], reliable:["✅ Most reliable","most dependable"]};
+  cont.innerHTML=["fast","stealth","reliable"].map(m=>{
+    const p=data.paths[m];
+    const head=`<div class="phead"><h3>${defs[m][0]}</h3><span class="tag">${defs[m][1]}</span></div>`;
+    if(!p) return `<div class="panel">${head}<div class="steps"><p class="muted">No path found.</p></div></div>`;
+    const steps=p.steps.map((s,i)=>`<div class="step"><div class="stepn">${i+1}</div>`
+      + `<div class="stepmid"><div class="hop">${s.from} <span class="arr">→</span> ${s.to}</div>`
+      + `<div class="tech">${s.kind}${s.name?` <span class="techname">— ${s.name}</span>`:''}</div>`
+      + `${s.note?`<div class="note">${s.note}</div>`:''}</div>`
+      + `<span class="mitre">${s.mitre}</span><span class="noise ${noiseCls(s.detection)}">${s.detection}</span></div>`).join("");
+    return `<div class="panel">${head}<div class="pmeta2"><b>${p.hops}</b> hops &nbsp;·&nbsp; total noise <b>${p.noise}</b></div><div class="steps">${steps}</div></div>`;
+  }).join("");
+}
+
+// ---- report generation ----
+async function genReport(){
+  const start=(document.getElementById("start").value||"alice").trim();
+  const target=(document.getElementById("target").value||"daadmin").trim();
+  const data=await (await fetch(`/api/paths?start=${encodeURIComponent(start)}&target=${encodeURIComponent(target)}&mode=all&profile=${encodeURIComponent(prof())}`)).json();
+  const pre=document.getElementById("rep");
+  if(data.error){ pre.textContent=data.error; return; }
+  document.getElementById("repTgt").textContent=`${data.start} → ${data.target}`;
+  const names={fast:"FASTEST (fewest hops)",stealth:"STEALTHIEST (least noise)",reliable:"MOST RELIABLE"};
+  let out=`PATHHUNTER — ENGAGEMENT REPORT\nTarget: ${data.start} -> ${data.target}\n`+"=".repeat(52)+"\n\n";
+  ["fast","stealth","reliable"].forEach(m=>{
+    const p=data.paths[m];
+    out+=`[${names[m]}]\n`;
+    if(!p){ out+="  no path found\n\n"; return; }
+    out+=`  ${p.hops} hops | total noise ${p.noise}\n`;
+    p.steps.forEach((s,i)=>{ out+=`   ${i+1}. ${s.from} --${s.kind}--> ${s.to}   [${s.mitre}] noise ${s.detection}\n`; });
+    out+="\n";
+  });
+  out+="REMEDIATION:\n  - Remove dangerous ACLs (e.g. GenericAll over admin accounts)\n  - Enforce tiered admin (no Domain Admin logon to member servers)\n  - Alert on DCSync (event 4662) and LSASS access\n";
+  pre.textContent=out;
+}
+function copyReport(){
+  const t=document.getElementById("rep").textContent;
+  if(navigator.clipboard) navigator.clipboard.writeText(t);
+}
+
+// ---- fullscreen the graph panel ----
+function toggleFullscreen(){
+  const el=document.getElementById("gpanel");
+  if(document.fullscreenElement) document.exitFullscreen();
+  else if(el.requestFullscreen) el.requestFullscreen();
+}
+
+// ---- build + download a standalone styled HTML report ----
+function buildReportHTML(data){
+  const esc=s=>String(s).replace(/[&<>]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;"}[c]));
+  const names={fast:"Fastest (fewest hops)",stealth:"Stealthiest (least noise)",reliable:"Most reliable"};
+  const nc=d=>d<=2?"#2ed573":d<=5?"#ffa502":"#ff4757";
+  let sections="";
+  ["fast","stealth","reliable"].forEach(m=>{
+    const p=data.paths[m];
+    sections+=`<h2>${names[m]}</h2>`;
+    if(!p){ sections+=`<p class="none">No path found.</p>`; return; }
+    sections+=`<p class="meta">${p.hops} hops &nbsp;·&nbsp; total detection noise <b>${p.noise}</b></p>`;
+    sections+=`<table><tr><th>#</th><th>From</th><th>Technique</th><th>To</th><th>MITRE</th><th>Noise</th></tr>`;
+    p.steps.forEach((s,i)=>{ sections+=`<tr><td>${i+1}</td><td>${esc(s.from)}</td><td>${esc(s.kind)}</td><td>${esc(s.to)}</td><td>${esc(s.mitre)}</td><td style="color:${nc(s.detection)};font-weight:700">${s.detection}</td></tr>`; });
+    sections+=`</table>`;
+  });
+  return `<!doctype html><html><head><meta charset="utf-8"><title>PathHunter Report — ${esc(data.start)} to ${esc(data.target)}</title>
+<style>
+ body{font-family:Segoe UI,Arial,sans-serif;background:#0a0c10;color:#e9ecf3;max-width:860px;margin:30px auto;padding:0 20px;}
+ h1{font-size:24px;margin-bottom:4px;} .head{color:#8b95a5;margin-bottom:24px;font-size:14px;}
+ h2{font-size:17px;margin:26px 0 6px;color:#ff4757;border-bottom:1px solid #232a38;padding-bottom:6px;}
+ .meta{color:#bcc4d4;font-size:14px;margin:0 0 10px;} .none{color:#7e8699;}
+ table{width:100%;border-collapse:collapse;font-size:13px;margin-bottom:10px;}
+ th,td{text-align:left;padding:8px 10px;border-bottom:1px solid #232a38;}
+ th{color:#7e8699;text-transform:uppercase;font-size:11px;letter-spacing:.5px;}
+ .rem{background:#11141b;border:1px solid #232a38;border-radius:10px;padding:16px 18px;margin-top:24px;}
+ .rem h2{border:0;margin-top:0;color:#2ed573;} .rem li{margin:6px 0;color:#bcc4d4;}
+ .foot{margin-top:30px;color:#5b6478;font-size:12px;border-top:1px solid #232a38;padding-top:14px;}
+</style></head><body>
+<h1>PathHunter — Attack Path Report</h1>
+<div class="head">Target: <b>${esc(data.start)} → ${esc(data.target)}</b> &nbsp;·&nbsp; profile: ${esc(data.profile||"default")} &nbsp;·&nbsp; generated ${new Date().toLocaleString()}</div>
+${sections}
+<div class="rem"><h2>Remediation</h2><ul>
+ <li>Remove dangerous ACLs (e.g. GenericAll / ForceChangePassword over admin accounts).</li>
+ <li>Enforce tiered administration — keep Domain Admins off member servers and workstations.</li>
+ <li>Monitor for DCSync (event 4662) and LSASS credential access.</li>
+ <li>Review nested group membership that grants unintended privileged paths.</li>
+</ul></div>
+<div class="foot">Generated by PathHunter · for authorized engagements only.</div>
+</body></html>`;
+}
+
+async function downloadHTMLReport(){
+  const start=(document.getElementById("start").value||"alice").trim();
+  const target=(document.getElementById("target").value||"daadmin").trim();
+  const data=await (await fetch(`/api/paths?start=${encodeURIComponent(start)}&target=${encodeURIComponent(target)}&mode=all&profile=${encodeURIComponent(prof())}`)).json();
+  if(data.error){ alert(data.error); return; }
+  const blob=new Blob([buildReportHTML(data)],{type:"text/html"});
+  const a=document.createElement("a"); a.href=URL.createObjectURL(blob);
+  a.download=`pathhunter_${data.start}_to_${data.target}.html`;
+  document.body.appendChild(a); a.click(); a.remove(); URL.revokeObjectURL(a.href);
+}
+
+// ---- wiring ----
+document.getElementById("nav").addEventListener("click", e=>{
+  const a=e.target.closest("a"); if(!a) return;
+  document.querySelectorAll("#nav a").forEach(x=>x.classList.remove("on"));
+  a.classList.add("on");
+  const v=a.dataset.v;
+  if(v==="graph"){
+    // "Graph" nav opens an immersive fullscreen of just the attack graph,
+    // so it's distinct from Dashboard (which shows KPIs + side panel too).
+    showView("dash");
+    const el=document.getElementById("gpanel");
+    if(el && el.requestFullscreen) el.requestFullscreen().catch(()=>{});
+  } else {
+    showView(v);
+  }
+});
+// ---- node drag (Obsidian-style) + canvas pan/zoom (unified) ----
+function applyView(){
+  const vp=document.getElementById("vp");
+  if(vp) vp.setAttribute("transform", `translate(${view.x} ${view.y}) scale(${view.s})`);
+}
+let _pendingRender=false;
+function _scheduleRender(){
+  if(_pendingRender) return;
+  _pendingRender=true;
+  requestAnimationFrame(()=>{ _pendingRender=false; renderCurrent(); });
+}
+(function(){
+  const svg=document.getElementById("svg"), VBW=1120, VBH=520;
+  const toVB=e=>{ const r=svg.getBoundingClientRect();
+    return { x:(e.clientX-r.left)/r.width*VBW, y:(e.clientY-r.top)/r.height*VBH,
+             sx:VBW/r.width, sy:VBH/r.height }; };
+  svg.addEventListener("wheel", e=>{
+    e.preventDefault();
+    const m=toVB(e), f=e.deltaY<0?1.15:1/1.15, ns=Math.max(0.4, Math.min(6, view.s*f));
+    const wx=(m.x-view.x)/view.s, wy=(m.y-view.y)/view.s;
+    view.x=m.x-wx*ns; view.y=m.y-wy*ns; view.s=ns; applyView();
+  }, {passive:false});
+  svg.addEventListener("mousedown", e=>{
+    const g=e.target.closest("g.node");
+    if(g){
+      // grab a node -> potential drag (or click if no movement)
+      dragNodeId=g.getAttribute("data-id");
+      dragStartScreen={x:e.clientX, y:e.clientY};
+      dragMoved=false;
+      svg.style.cursor="grabbing";
+      e.preventDefault();
+      return;
+    }
+    panStart={x:e.clientX,y:e.clientY}; svg.style.cursor="grabbing";
+  });
+  window.addEventListener("mousemove", e=>{
+    if(dragNodeId){
+      if(!dragMoved && Math.hypot(e.clientX-dragStartScreen.x, e.clientY-dragStartScreen.y) > 4) dragMoved=true;
+      if(dragMoved && POS[dragNodeId]){
+        const m=toVB(e);
+        const newX=(m.x - view.x) / view.s;
+        const newY=(m.y - view.y) / view.s;
+        const ddx=newX - POS[dragNodeId].x, ddy=newY - POS[dragNodeId].y;
+        POS[dragNodeId].x=newX; POS[dragNodeId].y=newY;
+        rippleFromDrag(dragNodeId, ddx, ddy);     // connected neighbours follow
+        pinned.add(dragNodeId);
+        _scheduleRender();
+      }
+      return;
+    }
+    if(!panStart) return;
+    const m=toVB(e); view.x+=(e.clientX-panStart.x)*m.sx; view.y+=(e.clientY-panStart.y)*m.sy;
+    panStart={x:e.clientX,y:e.clientY}; applyView();
+  });
+  window.addEventListener("mouseup", ()=>{
+    if(dragNodeId){
+      if(!dragMoved){
+        // it was a click (no real movement) -> treat as "set this as target"
+        const g=document.querySelector(`g.node[data-id="${dragNodeId}"]`);
+        const label=g?g.getAttribute("data-label"):null;
+        if(label) setTarget(label);
+      }
+      dragNodeId=null; dragMoved=false; svg.style.cursor="grab";
+      return;
+    }
+    panStart=null; svg.style.cursor="grab";
+  });
+  svg.addEventListener("dblclick", e=>{
+    if(e.target.closest("g.node")) return;
+    view={s:1,x:0,y:0}; applyView();
+  });
+})();
+
+// Pre-fill a sensible start/target for whatever data is loaded, so the
+// dashboard "just works" on any dataset instead of defaulting to names that
+// might not exist (which showed "start or target not found").
+async function applySuggested(){
+  try{
+    const s=await (await fetch("/api/suggest")).json();
+    if(s.start) document.getElementById("start").value=s.start;
+    if(s.target) document.getElementById("target").value=s.target;
+  }catch(e){ /* fall back to the default inputs */ }
+}
+(async function init(){ await loadProfiles(); await loadGraph(); await applySuggested(); analyze(); })();
+</script>
+</body>
+</html>

@@ -1,0 +1,134 @@
+{
+  "data": [
+    {
+      "Properties": {
+        "name": "HELPDESK-OPERATORS@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-9001-9002-9003-1300"
+      },
+      "ObjectIdentifier": "S-1-5-21-9001-9002-9003-1300",
+      "Aces": [],
+      "Members": [
+        {
+          "ObjectIdentifier": "S-1-5-21-9001-9002-9003-1100",
+          "ObjectType": "User"
+        }
+      ]
+    },
+    {
+      "Properties": {
+        "name": "FINANCE-ADMINS@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-9001-9002-9003-1301"
+      },
+      "ObjectIdentifier": "S-1-5-21-9001-9002-9003-1301",
+      "Aces": [],
+      "Members": [
+        {
+          "ObjectIdentifier": "S-1-5-21-9001-9002-9003-1101",
+          "ObjectType": "User"
+        }
+      ]
+    },
+    {
+      "Properties": {
+        "name": "SERVER-ADMINS@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-9001-9002-9003-1302"
+      },
+      "ObjectIdentifier": "S-1-5-21-9001-9002-9003-1302",
+      "Aces": [],
+      "Members": [
+        {
+          "ObjectIdentifier": "S-1-5-21-9001-9002-9003-1102",
+          "ObjectType": "User"
+        }
+      ]
+    },
+    {
+      "Properties": {
+        "name": "DOMAIN ADMINS@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-9001-9002-9003-512"
+      },
+      "ObjectIdentifier": "S-1-5-21-9001-9002-9003-512",
+      "Aces": [],
+      "Members": [
+        {
+          "ObjectIdentifier": "S-1-5-21-9001-9002-9003-500",
+          "ObjectType": "User"
+        }
+      ]
+    },
+    {
+      "Properties": {
+        "name": "FINANCE-USERS@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-9001-9002-9003-1310"
+      },
+      "ObjectIdentifier": "S-1-5-21-9001-9002-9003-1310",
+      "Aces": [],
+      "Members": [
+        {
+          "ObjectIdentifier": "S-1-5-21-9001-9002-9003-2001",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-9001-9002-9003-2002",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-9001-9002-9003-2003",
+          "ObjectType": "User"
+        }
+      ]
+    },
+    {
+      "Properties": {
+        "name": "ENGINEERING-USERS@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-9001-9002-9003-1311"
+      },
+      "ObjectIdentifier": "S-1-5-21-9001-9002-9003-1311",
+      "Aces": [],
+      "Members": [
+        {
+          "ObjectIdentifier": "S-1-5-21-9001-9002-9003-2004",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-9001-9002-9003-2005",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-9001-9002-9003-2006",
+          "ObjectType": "User"
+        }
+      ]
+    },
+    {
+      "Properties": {
+        "name": "SALES-USERS@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-9001-9002-9003-1312"
+      },
+      "ObjectIdentifier": "S-1-5-21-9001-9002-9003-1312",
+      "Aces": [],
+      "Members": [
+        {
+          "ObjectIdentifier": "S-1-5-21-9001-9002-9003-2007",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-9001-9002-9003-2008",
+          "ObjectType": "User"
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "type": "groups",
+    "count": 7,
+    "version": 5
+  }
+}

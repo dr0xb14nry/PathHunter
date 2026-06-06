@@ -1,0 +1,1746 @@
+{
+  "data": [
+    {
+      "Properties": {
+        "name": "WKS-FIN-01.CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2474"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2474",
+      "Aces": [],
+      "LocalAdmins": {
+        "Collected": true,
+        "Results": [
+          {
+            "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2001",
+            "ObjectType": "Group"
+          }
+        ]
+      },
+      "Sessions": {
+        "Collected": true,
+        "Results": [
+          {
+            "UserSID": "S-1-5-21-5500-5501-5502-2404",
+            "ComputerSID": "S-1-5-21-5500-5501-5502-2474"
+          }
+        ]
+      }
+    },
+    {
+      "Properties": {
+        "name": "WKS-FIN-02.CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2475"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2475",
+      "Aces": [],
+      "LocalAdmins": {
+        "Collected": true,
+        "Results": [
+          {
+            "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2001",
+            "ObjectType": "Group"
+          }
+        ]
+      },
+      "Sessions": {
+        "Collected": true,
+        "Results": []
+      }
+    },
+    {
+      "Properties": {
+        "name": "WKS-FIN-03.CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2476"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2476",
+      "Aces": [],
+      "LocalAdmins": {
+        "Collected": true,
+        "Results": [
+          {
+            "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2001",
+            "ObjectType": "Group"
+          }
+        ]
+      },
+      "Sessions": {
+        "Collected": true,
+        "Results": []
+      }
+    },
+    {
+      "Properties": {
+        "name": "WKS-FIN-04.CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2477"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2477",
+      "Aces": [],
+      "LocalAdmins": {
+        "Collected": true,
+        "Results": [
+          {
+            "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2001",
+            "ObjectType": "Group"
+          }
+        ]
+      },
+      "Sessions": {
+        "Collected": true,
+        "Results": [
+          {
+            "UserSID": "S-1-5-21-5500-5501-5502-2302",
+            "ComputerSID": "S-1-5-21-5500-5501-5502-2477"
+          }
+        ]
+      }
+    },
+    {
+      "Properties": {
+        "name": "WKS-FIN-05.CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2478"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2478",
+      "Aces": [],
+      "LocalAdmins": {
+        "Collected": true,
+        "Results": [
+          {
+            "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2001",
+            "ObjectType": "Group"
+          }
+        ]
+      },
+      "Sessions": {
+        "Collected": true,
+        "Results": []
+      }
+    },
+    {
+      "Properties": {
+        "name": "WKS-HUM-01.CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2479"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2479",
+      "Aces": [],
+      "LocalAdmins": {
+        "Collected": true,
+        "Results": [
+          {
+            "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2003",
+            "ObjectType": "Group"
+          }
+        ]
+      },
+      "Sessions": {
+        "Collected": true,
+        "Results": [
+          {
+            "UserSID": "S-1-5-21-5500-5501-5502-2461",
+            "ComputerSID": "S-1-5-21-5500-5501-5502-2479"
+          }
+        ]
+      }
+    },
+    {
+      "Properties": {
+        "name": "WKS-HUM-02.CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2480"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2480",
+      "Aces": [],
+      "LocalAdmins": {
+        "Collected": true,
+        "Results": [
+          {
+            "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2003",
+            "ObjectType": "Group"
+          }
+        ]
+      },
+      "Sessions": {
+        "Collected": true,
+        "Results": []
+      }
+    },
+    {
+      "Properties": {
+        "name": "WKS-HUM-03.CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2481"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2481",
+      "Aces": [],
+      "LocalAdmins": {
+        "Collected": true,
+        "Results": [
+          {
+            "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2003",
+            "ObjectType": "Group"
+          }
+        ]
+      },
+      "Sessions": {
+        "Collected": true,
+        "Results": [
+          {
+            "UserSID": "S-1-5-21-5500-5501-5502-2211",
+            "ComputerSID": "S-1-5-21-5500-5501-5502-2481"
+          }
+        ]
+      }
+    },
+    {
+      "Properties": {
+        "name": "WKS-HUM-04.CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2482"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2482",
+      "Aces": [],
+      "LocalAdmins": {
+        "Collected": true,
+        "Results": [
+          {
+            "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2003",
+            "ObjectType": "Group"
+          }
+        ]
+      },
+      "Sessions": {
+        "Collected": true,
+        "Results": []
+      }
+    },
+    {
+      "Properties": {
+        "name": "WKS-HUM-05.CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2483"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2483",
+      "Aces": [],
+      "LocalAdmins": {
+        "Collected": true,
+        "Results": [
+          {
+            "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2003",
+            "ObjectType": "Group"
+          }
+        ]
+      },
+      "Sessions": {
+        "Collected": true,
+        "Results": []
+      }
+    },
+    {
+      "Properties": {
+        "name": "WKS-IT-01.CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2484"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2484",
+      "Aces": [],
+      "LocalAdmins": {
+        "Collected": true,
+        "Results": [
+          {
+            "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2005",
+            "ObjectType": "Group"
+          }
+        ]
+      },
+      "Sessions": {
+        "Collected": true,
+        "Results": [
+          {
+            "UserSID": "S-1-5-21-5500-5501-5502-2100",
+            "ComputerSID": "S-1-5-21-5500-5501-5502-2484"
+          }
+        ]
+      }
+    },
+    {
+      "Properties": {
+        "name": "WKS-IT-02.CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2485"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2485",
+      "Aces": [],
+      "LocalAdmins": {
+        "Collected": true,
+        "Results": [
+          {
+            "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2005",
+            "ObjectType": "Group"
+          }
+        ]
+      },
+      "Sessions": {
+        "Collected": true,
+        "Results": []
+      }
+    },
+    {
+      "Properties": {
+        "name": "WKS-IT-03.CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2486"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2486",
+      "Aces": [],
+      "LocalAdmins": {
+        "Collected": true,
+        "Results": [
+          {
+            "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2005",
+            "ObjectType": "Group"
+          }
+        ]
+      },
+      "Sessions": {
+        "Collected": true,
+        "Results": [
+          {
+            "UserSID": "S-1-5-21-5500-5501-5502-2082",
+            "ComputerSID": "S-1-5-21-5500-5501-5502-2486"
+          }
+        ]
+      }
+    },
+    {
+      "Properties": {
+        "name": "WKS-IT-04.CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2487"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2487",
+      "Aces": [],
+      "LocalAdmins": {
+        "Collected": true,
+        "Results": [
+          {
+            "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2005",
+            "ObjectType": "Group"
+          }
+        ]
+      },
+      "Sessions": {
+        "Collected": true,
+        "Results": [
+          {
+            "UserSID": "S-1-5-21-5500-5501-5502-2472",
+            "ComputerSID": "S-1-5-21-5500-5501-5502-2487"
+          }
+        ]
+      }
+    },
+    {
+      "Properties": {
+        "name": "WKS-IT-05.CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2488"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2488",
+      "Aces": [],
+      "LocalAdmins": {
+        "Collected": true,
+        "Results": [
+          {
+            "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2005",
+            "ObjectType": "Group"
+          }
+        ]
+      },
+      "Sessions": {
+        "Collected": true,
+        "Results": [
+          {
+            "UserSID": "S-1-5-21-5500-5501-5502-2456",
+            "ComputerSID": "S-1-5-21-5500-5501-5502-2488"
+          }
+        ]
+      }
+    },
+    {
+      "Properties": {
+        "name": "WKS-ENG-01.CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2489"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2489",
+      "Aces": [],
+      "LocalAdmins": {
+        "Collected": true,
+        "Results": [
+          {
+            "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2007",
+            "ObjectType": "Group"
+          }
+        ]
+      },
+      "Sessions": {
+        "Collected": true,
+        "Results": [
+          {
+            "UserSID": "S-1-5-21-5500-5501-5502-2064",
+            "ComputerSID": "S-1-5-21-5500-5501-5502-2489"
+          }
+        ]
+      }
+    },
+    {
+      "Properties": {
+        "name": "WKS-ENG-02.CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2490"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2490",
+      "Aces": [],
+      "LocalAdmins": {
+        "Collected": true,
+        "Results": [
+          {
+            "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2007",
+            "ObjectType": "Group"
+          }
+        ]
+      },
+      "Sessions": {
+        "Collected": true,
+        "Results": []
+      }
+    },
+    {
+      "Properties": {
+        "name": "WKS-ENG-03.CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2491"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2491",
+      "Aces": [],
+      "LocalAdmins": {
+        "Collected": true,
+        "Results": [
+          {
+            "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2007",
+            "ObjectType": "Group"
+          }
+        ]
+      },
+      "Sessions": {
+        "Collected": true,
+        "Results": []
+      }
+    },
+    {
+      "Properties": {
+        "name": "WKS-ENG-04.CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2492"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2492",
+      "Aces": [],
+      "LocalAdmins": {
+        "Collected": true,
+        "Results": [
+          {
+            "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2007",
+            "ObjectType": "Group"
+          }
+        ]
+      },
+      "Sessions": {
+        "Collected": true,
+        "Results": [
+          {
+            "UserSID": "S-1-5-21-5500-5501-5502-2088",
+            "ComputerSID": "S-1-5-21-5500-5501-5502-2492"
+          }
+        ]
+      }
+    },
+    {
+      "Properties": {
+        "name": "WKS-ENG-05.CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2493"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2493",
+      "Aces": [],
+      "LocalAdmins": {
+        "Collected": true,
+        "Results": [
+          {
+            "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2007",
+            "ObjectType": "Group"
+          }
+        ]
+      },
+      "Sessions": {
+        "Collected": true,
+        "Results": [
+          {
+            "UserSID": "S-1-5-21-5500-5501-5502-2064",
+            "ComputerSID": "S-1-5-21-5500-5501-5502-2493"
+          }
+        ]
+      }
+    },
+    {
+      "Properties": {
+        "name": "WKS-SAL-01.CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2494"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2494",
+      "Aces": [],
+      "LocalAdmins": {
+        "Collected": true,
+        "Results": [
+          {
+            "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2009",
+            "ObjectType": "Group"
+          }
+        ]
+      },
+      "Sessions": {
+        "Collected": true,
+        "Results": [
+          {
+            "UserSID": "S-1-5-21-5500-5501-5502-2289",
+            "ComputerSID": "S-1-5-21-5500-5501-5502-2494"
+          }
+        ]
+      }
+    },
+    {
+      "Properties": {
+        "name": "WKS-SAL-02.CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2495"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2495",
+      "Aces": [],
+      "LocalAdmins": {
+        "Collected": true,
+        "Results": [
+          {
+            "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2009",
+            "ObjectType": "Group"
+          }
+        ]
+      },
+      "Sessions": {
+        "Collected": true,
+        "Results": []
+      }
+    },
+    {
+      "Properties": {
+        "name": "WKS-SAL-03.CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2496"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2496",
+      "Aces": [],
+      "LocalAdmins": {
+        "Collected": true,
+        "Results": [
+          {
+            "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2009",
+            "ObjectType": "Group"
+          }
+        ]
+      },
+      "Sessions": {
+        "Collected": true,
+        "Results": []
+      }
+    },
+    {
+      "Properties": {
+        "name": "WKS-SAL-04.CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2497"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2497",
+      "Aces": [],
+      "LocalAdmins": {
+        "Collected": true,
+        "Results": [
+          {
+            "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2009",
+            "ObjectType": "Group"
+          }
+        ]
+      },
+      "Sessions": {
+        "Collected": true,
+        "Results": [
+          {
+            "UserSID": "S-1-5-21-5500-5501-5502-2304",
+            "ComputerSID": "S-1-5-21-5500-5501-5502-2497"
+          }
+        ]
+      }
+    },
+    {
+      "Properties": {
+        "name": "WKS-SAL-05.CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2498"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2498",
+      "Aces": [],
+      "LocalAdmins": {
+        "Collected": true,
+        "Results": [
+          {
+            "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2009",
+            "ObjectType": "Group"
+          }
+        ]
+      },
+      "Sessions": {
+        "Collected": true,
+        "Results": [
+          {
+            "UserSID": "S-1-5-21-5500-5501-5502-2083",
+            "ComputerSID": "S-1-5-21-5500-5501-5502-2498"
+          }
+        ]
+      }
+    },
+    {
+      "Properties": {
+        "name": "WKS-MAR-01.CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2499"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2499",
+      "Aces": [],
+      "LocalAdmins": {
+        "Collected": true,
+        "Results": [
+          {
+            "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2011",
+            "ObjectType": "Group"
+          }
+        ]
+      },
+      "Sessions": {
+        "Collected": true,
+        "Results": [
+          {
+            "UserSID": "S-1-5-21-5500-5501-5502-2227",
+            "ComputerSID": "S-1-5-21-5500-5501-5502-2499"
+          }
+        ]
+      }
+    },
+    {
+      "Properties": {
+        "name": "WKS-MAR-02.CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2500"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2500",
+      "Aces": [],
+      "LocalAdmins": {
+        "Collected": true,
+        "Results": [
+          {
+            "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2011",
+            "ObjectType": "Group"
+          }
+        ]
+      },
+      "Sessions": {
+        "Collected": true,
+        "Results": []
+      }
+    },
+    {
+      "Properties": {
+        "name": "WKS-MAR-03.CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2501"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2501",
+      "Aces": [],
+      "LocalAdmins": {
+        "Collected": true,
+        "Results": [
+          {
+            "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2011",
+            "ObjectType": "Group"
+          }
+        ]
+      },
+      "Sessions": {
+        "Collected": true,
+        "Results": [
+          {
+            "UserSID": "S-1-5-21-5500-5501-5502-2066",
+            "ComputerSID": "S-1-5-21-5500-5501-5502-2501"
+          }
+        ]
+      }
+    },
+    {
+      "Properties": {
+        "name": "WKS-MAR-04.CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2502"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2502",
+      "Aces": [],
+      "LocalAdmins": {
+        "Collected": true,
+        "Results": [
+          {
+            "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2011",
+            "ObjectType": "Group"
+          }
+        ]
+      },
+      "Sessions": {
+        "Collected": true,
+        "Results": []
+      }
+    },
+    {
+      "Properties": {
+        "name": "WKS-MAR-05.CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2503"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2503",
+      "Aces": [],
+      "LocalAdmins": {
+        "Collected": true,
+        "Results": [
+          {
+            "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2011",
+            "ObjectType": "Group"
+          }
+        ]
+      },
+      "Sessions": {
+        "Collected": true,
+        "Results": []
+      }
+    },
+    {
+      "Properties": {
+        "name": "WKS-LEG-01.CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2504"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2504",
+      "Aces": [],
+      "LocalAdmins": {
+        "Collected": true,
+        "Results": [
+          {
+            "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2013",
+            "ObjectType": "Group"
+          }
+        ]
+      },
+      "Sessions": {
+        "Collected": true,
+        "Results": [
+          {
+            "UserSID": "S-1-5-21-5500-5501-5502-2099",
+            "ComputerSID": "S-1-5-21-5500-5501-5502-2504"
+          }
+        ]
+      }
+    },
+    {
+      "Properties": {
+        "name": "WKS-LEG-02.CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2505"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2505",
+      "Aces": [],
+      "LocalAdmins": {
+        "Collected": true,
+        "Results": [
+          {
+            "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2013",
+            "ObjectType": "Group"
+          }
+        ]
+      },
+      "Sessions": {
+        "Collected": true,
+        "Results": [
+          {
+            "UserSID": "S-1-5-21-5500-5501-5502-2278",
+            "ComputerSID": "S-1-5-21-5500-5501-5502-2505"
+          }
+        ]
+      }
+    },
+    {
+      "Properties": {
+        "name": "WKS-LEG-03.CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2506"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2506",
+      "Aces": [],
+      "LocalAdmins": {
+        "Collected": true,
+        "Results": [
+          {
+            "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2013",
+            "ObjectType": "Group"
+          }
+        ]
+      },
+      "Sessions": {
+        "Collected": true,
+        "Results": []
+      }
+    },
+    {
+      "Properties": {
+        "name": "WKS-LEG-04.CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2507"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2507",
+      "Aces": [],
+      "LocalAdmins": {
+        "Collected": true,
+        "Results": [
+          {
+            "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2013",
+            "ObjectType": "Group"
+          }
+        ]
+      },
+      "Sessions": {
+        "Collected": true,
+        "Results": []
+      }
+    },
+    {
+      "Properties": {
+        "name": "WKS-LEG-05.CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2508"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2508",
+      "Aces": [],
+      "LocalAdmins": {
+        "Collected": true,
+        "Results": [
+          {
+            "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2013",
+            "ObjectType": "Group"
+          }
+        ]
+      },
+      "Sessions": {
+        "Collected": true,
+        "Results": []
+      }
+    },
+    {
+      "Properties": {
+        "name": "WKS-OPE-01.CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2509"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2509",
+      "Aces": [],
+      "LocalAdmins": {
+        "Collected": true,
+        "Results": [
+          {
+            "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2015",
+            "ObjectType": "Group"
+          }
+        ]
+      },
+      "Sessions": {
+        "Collected": true,
+        "Results": [
+          {
+            "UserSID": "S-1-5-21-5500-5501-5502-2242",
+            "ComputerSID": "S-1-5-21-5500-5501-5502-2509"
+          }
+        ]
+      }
+    },
+    {
+      "Properties": {
+        "name": "WKS-OPE-02.CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2510"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2510",
+      "Aces": [],
+      "LocalAdmins": {
+        "Collected": true,
+        "Results": [
+          {
+            "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2015",
+            "ObjectType": "Group"
+          }
+        ]
+      },
+      "Sessions": {
+        "Collected": true,
+        "Results": [
+          {
+            "UserSID": "S-1-5-21-5500-5501-5502-2167",
+            "ComputerSID": "S-1-5-21-5500-5501-5502-2510"
+          }
+        ]
+      }
+    },
+    {
+      "Properties": {
+        "name": "WKS-OPE-03.CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2511"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2511",
+      "Aces": [],
+      "LocalAdmins": {
+        "Collected": true,
+        "Results": [
+          {
+            "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2015",
+            "ObjectType": "Group"
+          }
+        ]
+      },
+      "Sessions": {
+        "Collected": true,
+        "Results": []
+      }
+    },
+    {
+      "Properties": {
+        "name": "WKS-OPE-04.CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2512"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2512",
+      "Aces": [],
+      "LocalAdmins": {
+        "Collected": true,
+        "Results": [
+          {
+            "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2015",
+            "ObjectType": "Group"
+          }
+        ]
+      },
+      "Sessions": {
+        "Collected": true,
+        "Results": []
+      }
+    },
+    {
+      "Properties": {
+        "name": "WKS-OPE-05.CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2513"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2513",
+      "Aces": [],
+      "LocalAdmins": {
+        "Collected": true,
+        "Results": [
+          {
+            "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2015",
+            "ObjectType": "Group"
+          }
+        ]
+      },
+      "Sessions": {
+        "Collected": true,
+        "Results": [
+          {
+            "UserSID": "S-1-5-21-5500-5501-5502-2201",
+            "ComputerSID": "S-1-5-21-5500-5501-5502-2513"
+          }
+        ]
+      }
+    },
+    {
+      "Properties": {
+        "name": "WKS-SEC-01.CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2514"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2514",
+      "Aces": [],
+      "LocalAdmins": {
+        "Collected": true,
+        "Results": [
+          {
+            "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2017",
+            "ObjectType": "Group"
+          }
+        ]
+      },
+      "Sessions": {
+        "Collected": true,
+        "Results": [
+          {
+            "UserSID": "S-1-5-21-5500-5501-5502-2268",
+            "ComputerSID": "S-1-5-21-5500-5501-5502-2514"
+          }
+        ]
+      }
+    },
+    {
+      "Properties": {
+        "name": "WKS-SEC-02.CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2515"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2515",
+      "Aces": [],
+      "LocalAdmins": {
+        "Collected": true,
+        "Results": [
+          {
+            "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2017",
+            "ObjectType": "Group"
+          }
+        ]
+      },
+      "Sessions": {
+        "Collected": true,
+        "Results": []
+      }
+    },
+    {
+      "Properties": {
+        "name": "WKS-SEC-03.CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2516"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2516",
+      "Aces": [],
+      "LocalAdmins": {
+        "Collected": true,
+        "Results": [
+          {
+            "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2017",
+            "ObjectType": "Group"
+          }
+        ]
+      },
+      "Sessions": {
+        "Collected": true,
+        "Results": []
+      }
+    },
+    {
+      "Properties": {
+        "name": "WKS-SEC-04.CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2517"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2517",
+      "Aces": [],
+      "LocalAdmins": {
+        "Collected": true,
+        "Results": [
+          {
+            "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2017",
+            "ObjectType": "Group"
+          }
+        ]
+      },
+      "Sessions": {
+        "Collected": true,
+        "Results": [
+          {
+            "UserSID": "S-1-5-21-5500-5501-5502-2164",
+            "ComputerSID": "S-1-5-21-5500-5501-5502-2517"
+          }
+        ]
+      }
+    },
+    {
+      "Properties": {
+        "name": "WKS-SEC-05.CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2518"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2518",
+      "Aces": [],
+      "LocalAdmins": {
+        "Collected": true,
+        "Results": [
+          {
+            "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2017",
+            "ObjectType": "Group"
+          }
+        ]
+      },
+      "Sessions": {
+        "Collected": true,
+        "Results": []
+      }
+    },
+    {
+      "Properties": {
+        "name": "WKS-SUP-01.CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2519"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2519",
+      "Aces": [],
+      "LocalAdmins": {
+        "Collected": true,
+        "Results": [
+          {
+            "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2019",
+            "ObjectType": "Group"
+          }
+        ]
+      },
+      "Sessions": {
+        "Collected": true,
+        "Results": []
+      }
+    },
+    {
+      "Properties": {
+        "name": "WKS-SUP-02.CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2520"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2520",
+      "Aces": [],
+      "LocalAdmins": {
+        "Collected": true,
+        "Results": [
+          {
+            "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2019",
+            "ObjectType": "Group"
+          }
+        ]
+      },
+      "Sessions": {
+        "Collected": true,
+        "Results": [
+          {
+            "UserSID": "S-1-5-21-5500-5501-5502-2459",
+            "ComputerSID": "S-1-5-21-5500-5501-5502-2520"
+          }
+        ]
+      }
+    },
+    {
+      "Properties": {
+        "name": "WKS-SUP-03.CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2521"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2521",
+      "Aces": [],
+      "LocalAdmins": {
+        "Collected": true,
+        "Results": [
+          {
+            "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2019",
+            "ObjectType": "Group"
+          }
+        ]
+      },
+      "Sessions": {
+        "Collected": true,
+        "Results": [
+          {
+            "UserSID": "S-1-5-21-5500-5501-5502-2093",
+            "ComputerSID": "S-1-5-21-5500-5501-5502-2521"
+          }
+        ]
+      }
+    },
+    {
+      "Properties": {
+        "name": "WKS-SUP-04.CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2522"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2522",
+      "Aces": [],
+      "LocalAdmins": {
+        "Collected": true,
+        "Results": [
+          {
+            "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2019",
+            "ObjectType": "Group"
+          }
+        ]
+      },
+      "Sessions": {
+        "Collected": true,
+        "Results": []
+      }
+    },
+    {
+      "Properties": {
+        "name": "WKS-SUP-05.CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2523"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2523",
+      "Aces": [],
+      "LocalAdmins": {
+        "Collected": true,
+        "Results": [
+          {
+            "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2019",
+            "ObjectType": "Group"
+          }
+        ]
+      },
+      "Sessions": {
+        "Collected": true,
+        "Results": []
+      }
+    },
+    {
+      "Properties": {
+        "name": "WKS-PRO-01.CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2524"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2524",
+      "Aces": [],
+      "LocalAdmins": {
+        "Collected": true,
+        "Results": [
+          {
+            "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2021",
+            "ObjectType": "Group"
+          }
+        ]
+      },
+      "Sessions": {
+        "Collected": true,
+        "Results": [
+          {
+            "UserSID": "S-1-5-21-5500-5501-5502-2362",
+            "ComputerSID": "S-1-5-21-5500-5501-5502-2524"
+          }
+        ]
+      }
+    },
+    {
+      "Properties": {
+        "name": "WKS-PRO-02.CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2525"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2525",
+      "Aces": [],
+      "LocalAdmins": {
+        "Collected": true,
+        "Results": [
+          {
+            "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2021",
+            "ObjectType": "Group"
+          }
+        ]
+      },
+      "Sessions": {
+        "Collected": true,
+        "Results": [
+          {
+            "UserSID": "S-1-5-21-5500-5501-5502-2131",
+            "ComputerSID": "S-1-5-21-5500-5501-5502-2525"
+          }
+        ]
+      }
+    },
+    {
+      "Properties": {
+        "name": "WKS-PRO-03.CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2526"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2526",
+      "Aces": [],
+      "LocalAdmins": {
+        "Collected": true,
+        "Results": [
+          {
+            "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2021",
+            "ObjectType": "Group"
+          }
+        ]
+      },
+      "Sessions": {
+        "Collected": true,
+        "Results": [
+          {
+            "UserSID": "S-1-5-21-5500-5501-5502-2244",
+            "ComputerSID": "S-1-5-21-5500-5501-5502-2526"
+          }
+        ]
+      }
+    },
+    {
+      "Properties": {
+        "name": "WKS-PRO-04.CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2527"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2527",
+      "Aces": [],
+      "LocalAdmins": {
+        "Collected": true,
+        "Results": [
+          {
+            "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2021",
+            "ObjectType": "Group"
+          }
+        ]
+      },
+      "Sessions": {
+        "Collected": true,
+        "Results": []
+      }
+    },
+    {
+      "Properties": {
+        "name": "WKS-PRO-05.CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2528"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2528",
+      "Aces": [],
+      "LocalAdmins": {
+        "Collected": true,
+        "Results": [
+          {
+            "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2021",
+            "ObjectType": "Group"
+          }
+        ]
+      },
+      "Sessions": {
+        "Collected": true,
+        "Results": []
+      }
+    },
+    {
+      "Properties": {
+        "name": "WKS-RES-01.CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2529"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2529",
+      "Aces": [],
+      "LocalAdmins": {
+        "Collected": true,
+        "Results": [
+          {
+            "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2023",
+            "ObjectType": "Group"
+          }
+        ]
+      },
+      "Sessions": {
+        "Collected": true,
+        "Results": [
+          {
+            "UserSID": "S-1-5-21-5500-5501-5502-2077",
+            "ComputerSID": "S-1-5-21-5500-5501-5502-2529"
+          }
+        ]
+      }
+    },
+    {
+      "Properties": {
+        "name": "WKS-RES-02.CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2530"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2530",
+      "Aces": [],
+      "LocalAdmins": {
+        "Collected": true,
+        "Results": [
+          {
+            "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2023",
+            "ObjectType": "Group"
+          }
+        ]
+      },
+      "Sessions": {
+        "Collected": true,
+        "Results": [
+          {
+            "UserSID": "S-1-5-21-5500-5501-5502-2290",
+            "ComputerSID": "S-1-5-21-5500-5501-5502-2530"
+          }
+        ]
+      }
+    },
+    {
+      "Properties": {
+        "name": "WKS-RES-03.CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2531"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2531",
+      "Aces": [],
+      "LocalAdmins": {
+        "Collected": true,
+        "Results": [
+          {
+            "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2023",
+            "ObjectType": "Group"
+          }
+        ]
+      },
+      "Sessions": {
+        "Collected": true,
+        "Results": []
+      }
+    },
+    {
+      "Properties": {
+        "name": "WKS-RES-04.CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2532"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2532",
+      "Aces": [],
+      "LocalAdmins": {
+        "Collected": true,
+        "Results": [
+          {
+            "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2023",
+            "ObjectType": "Group"
+          }
+        ]
+      },
+      "Sessions": {
+        "Collected": true,
+        "Results": [
+          {
+            "UserSID": "S-1-5-21-5500-5501-5502-2024",
+            "ComputerSID": "S-1-5-21-5500-5501-5502-2532"
+          }
+        ]
+      }
+    },
+    {
+      "Properties": {
+        "name": "WKS-RES-05.CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2533"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2533",
+      "Aces": [],
+      "LocalAdmins": {
+        "Collected": true,
+        "Results": [
+          {
+            "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2023",
+            "ObjectType": "Group"
+          }
+        ]
+      },
+      "Sessions": {
+        "Collected": true,
+        "Results": [
+          {
+            "UserSID": "S-1-5-21-5500-5501-5502-2077",
+            "ComputerSID": "S-1-5-21-5500-5501-5502-2533"
+          }
+        ]
+      }
+    },
+    {
+      "Properties": {
+        "name": "SRV-FILE-01.CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2534"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2534",
+      "Aces": [],
+      "LocalAdmins": {
+        "Collected": true,
+        "Results": [
+          {
+            "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2005",
+            "ObjectType": "Group"
+          }
+        ]
+      },
+      "Sessions": {
+        "Collected": true,
+        "Results": []
+      }
+    },
+    {
+      "Properties": {
+        "name": "SRV-FILE-02.CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2535"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2535",
+      "Aces": [],
+      "LocalAdmins": {
+        "Collected": true,
+        "Results": [
+          {
+            "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2005",
+            "ObjectType": "Group"
+          }
+        ]
+      },
+      "Sessions": {
+        "Collected": true,
+        "Results": []
+      }
+    },
+    {
+      "Properties": {
+        "name": "SRV-FILE-03.CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2536"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2536",
+      "Aces": [],
+      "LocalAdmins": {
+        "Collected": true,
+        "Results": [
+          {
+            "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2005",
+            "ObjectType": "Group"
+          }
+        ]
+      },
+      "Sessions": {
+        "Collected": true,
+        "Results": []
+      }
+    },
+    {
+      "Properties": {
+        "name": "SRV-FILE-04.CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2537"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2537",
+      "Aces": [],
+      "LocalAdmins": {
+        "Collected": true,
+        "Results": [
+          {
+            "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2005",
+            "ObjectType": "Group"
+          }
+        ]
+      },
+      "Sessions": {
+        "Collected": true,
+        "Results": []
+      }
+    },
+    {
+      "Properties": {
+        "name": "SRV-FILE-05.CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2538"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2538",
+      "Aces": [],
+      "LocalAdmins": {
+        "Collected": true,
+        "Results": [
+          {
+            "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2005",
+            "ObjectType": "Group"
+          }
+        ]
+      },
+      "Sessions": {
+        "Collected": true,
+        "Results": []
+      }
+    },
+    {
+      "Properties": {
+        "name": "SRV-FILE-06.CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2539"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2539",
+      "Aces": [],
+      "LocalAdmins": {
+        "Collected": true,
+        "Results": [
+          {
+            "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2005",
+            "ObjectType": "Group"
+          }
+        ]
+      },
+      "Sessions": {
+        "Collected": true,
+        "Results": []
+      }
+    },
+    {
+      "Properties": {
+        "name": "SRV-FILE-07.CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2540"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2540",
+      "Aces": [],
+      "LocalAdmins": {
+        "Collected": true,
+        "Results": [
+          {
+            "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2005",
+            "ObjectType": "Group"
+          }
+        ]
+      },
+      "Sessions": {
+        "Collected": true,
+        "Results": []
+      }
+    },
+    {
+      "Properties": {
+        "name": "SRV-FILE-08.CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2541"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2541",
+      "Aces": [],
+      "LocalAdmins": {
+        "Collected": true,
+        "Results": [
+          {
+            "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2005",
+            "ObjectType": "Group"
+          }
+        ]
+      },
+      "Sessions": {
+        "Collected": true,
+        "Results": []
+      }
+    },
+    {
+      "Properties": {
+        "name": "WKS-FIN-014.CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-1200"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-1200",
+      "Aces": [],
+      "LocalAdmins": {
+        "Collected": true,
+        "Results": [
+          {
+            "ObjectIdentifier": "S-1-5-21-5500-5501-5502-1010",
+            "ObjectType": "User"
+          }
+        ]
+      },
+      "Sessions": {
+        "Collected": true,
+        "Results": [
+          {
+            "UserSID": "S-1-5-21-5500-5501-5502-1001",
+            "ComputerSID": "S-1-5-21-5500-5501-5502-1200"
+          }
+        ]
+      }
+    },
+    {
+      "Properties": {
+        "name": "SRV-APP-03.CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-1201"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-1201",
+      "Aces": [],
+      "LocalAdmins": {
+        "Collected": true,
+        "Results": [
+          {
+            "ObjectIdentifier": "S-1-5-21-5500-5501-5502-1011",
+            "ObjectType": "User"
+          }
+        ]
+      },
+      "Sessions": {
+        "Collected": true,
+        "Results": [
+          {
+            "UserSID": "S-1-5-21-5500-5501-5502-1002",
+            "ComputerSID": "S-1-5-21-5500-5501-5502-1201"
+          }
+        ]
+      }
+    },
+    {
+      "Properties": {
+        "name": "DC01.CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-1202"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-1202",
+      "Aces": [],
+      "LocalAdmins": {
+        "Collected": true,
+        "Results": [
+          {
+            "ObjectIdentifier": "S-1-5-21-5500-5501-5502-1012",
+            "ObjectType": "User"
+          }
+        ]
+      },
+      "Sessions": {
+        "Collected": true,
+        "Results": [
+          {
+            "UserSID": "S-1-5-21-5500-5501-5502-500",
+            "ComputerSID": "S-1-5-21-5500-5501-5502-1202"
+          }
+        ]
+      }
+    }
+  ],
+  "meta": {
+    "type": "computers",
+    "count": 71,
+    "version": 5
+  }
+}

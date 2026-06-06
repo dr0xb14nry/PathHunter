@@ -1,0 +1,16 @@
+# PathHunter v1 core = ZERO external dependencies (pure Python stdlib).
+# This keeps RAM usage tiny and install frictionless for engagements.
+#
+# Dependencies added in later phases (uncomment when we get there):
+#
+#   fastapi          # web dashboard backend (Week 4-5)
+#   uvicorn          # web server to run FastAPI
+#   pytest           # automated tests (Week 3)
+#
+#   # Pluggable AI layer — install ONE of these (Week 4-5):
+#   anthropic              # Claude
+#   google-generativeai    # Gemini
+#   openai                 # GPT / Codex
+#
+#   # Optional large-dataset backend (only if you choose Neo4j later):
+#   neo4j

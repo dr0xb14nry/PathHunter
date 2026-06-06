@@ -1,0 +1,56 @@
+{
+  "data": [
+    {
+      "Properties": {
+        "name": "alice@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-9001-9002-9003-1100",
+        "enabled": true,
+        "hasspn": false
+      },
+      "ObjectIdentifier": "S-1-5-21-9001-9002-9003-1100",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "daadmin@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-9001-9002-9003-500",
+        "enabled": true,
+        "hasspn": false
+      },
+      "ObjectIdentifier": "S-1-5-21-9001-9002-9003-500",
+      "Aces": [
+        {
+          "PrincipalSID": "S-1-5-21-9001-9002-9003-1301",
+          "PrincipalType": "Group",
+          "RightName": "GenericAll",
+          "IsInherited": false
+        }
+      ]
+    },
+    {
+      "Properties": {
+        "name": "svc-backup@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-9001-9002-9003-1200",
+        "enabled": true,
+        "hasspn": false
+      },
+      "ObjectIdentifier": "S-1-5-21-9001-9002-9003-1200",
+      "Aces": [
+        {
+          "PrincipalSID": "S-1-5-21-9001-9002-9003-1302",
+          "PrincipalType": "Group",
+          "RightName": "ForceChangePassword",
+          "IsInherited": false
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "type": "users",
+    "count": 3,
+    "version": 5
+  }
+}

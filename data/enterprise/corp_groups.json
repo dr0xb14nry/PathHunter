@@ -1,0 +1,2229 @@
+{
+  "data": [
+    {
+      "Properties": {
+        "name": "FINANCE-USERS@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2000"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2000",
+      "Aces": [],
+      "Members": [
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2043",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2163",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2196",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2221",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2225",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2229",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2232",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2234",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2239",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2302",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2318",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2321",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2325",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2334",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2341",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2347",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2353",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2367",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2376",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2395",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2400",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2404",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2413",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2416",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2451",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2454",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2466",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2470",
+          "ObjectType": "User"
+        }
+      ]
+    },
+    {
+      "Properties": {
+        "name": "FINANCE-ADMINS@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2001"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2001",
+      "Aces": [],
+      "Members": [
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2466",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2325",
+          "ObjectType": "User"
+        }
+      ]
+    },
+    {
+      "Properties": {
+        "name": "HUMANRESOURCES-USERS@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2002"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2002",
+      "Aces": [],
+      "Members": [
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2031",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2036",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2045",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2063",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2074",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2075",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2076",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2078",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2105",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2113",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2116",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2139",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2141",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2147",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2153",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2177",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2200",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2210",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2211",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2222",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2237",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2238",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2256",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2287",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2299",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2308",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2316",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2328",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2335",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2345",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2346",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2351",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2354",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2357",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2392",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2398",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2405",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2409",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2410",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2415",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2428",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2461",
+          "ObjectType": "User"
+        }
+      ]
+    },
+    {
+      "Properties": {
+        "name": "HUMANRESOURCES-ADMINS@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2003"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2003",
+      "Aces": [],
+      "Members": [
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2210",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2256",
+          "ObjectType": "User"
+        }
+      ]
+    },
+    {
+      "Properties": {
+        "name": "IT-USERS@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2004"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2004",
+      "Aces": [],
+      "Members": [
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2054",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2062",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2070",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2072",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2079",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2082",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2087",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2100",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2102",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2111",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2133",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2161",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2174",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2192",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2194",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2204",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2220",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2236",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2240",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2252",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2279",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2288",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2291",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2296",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2297",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2330",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2370",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2382",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2385",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2431",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2456",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2458",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2472",
+          "ObjectType": "User"
+        }
+      ]
+    },
+    {
+      "Properties": {
+        "name": "IT-ADMINS@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2005"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2005",
+      "Aces": [],
+      "Members": [
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2456",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2111",
+          "ObjectType": "User"
+        }
+      ]
+    },
+    {
+      "Properties": {
+        "name": "ENGINEERING-USERS@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2006"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2006",
+      "Aces": [],
+      "Members": [
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2027",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2034",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2041",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2048",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2053",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2056",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2064",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2069",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2081",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2088",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2091",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2115",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2119",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2124",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2135",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2155",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2178",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2183",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2218",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2223",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2266",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2271",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2276",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2283",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2286",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2301",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2313",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2315",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2319",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2342",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2363",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2369",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2374",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2378",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2397",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2412",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2419",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2446",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2447",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2452",
+          "ObjectType": "User"
+        }
+      ]
+    },
+    {
+      "Properties": {
+        "name": "ENGINEERING-ADMINS@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2007"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2007",
+      "Aces": [],
+      "Members": [
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2155",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2412",
+          "ObjectType": "User"
+        }
+      ]
+    },
+    {
+      "Properties": {
+        "name": "SALES-USERS@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2008"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2008",
+      "Aces": [],
+      "Members": [
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2057",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2061",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2083",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2101",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2109",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2120",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2126",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2128",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2146",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2148",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2151",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2156",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2169",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2182",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2215",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2217",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2224",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2246",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2254",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2269",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2281",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2289",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2304",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2337",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2340",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2348",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2390",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2418",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2422",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2427",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2455",
+          "ObjectType": "User"
+        }
+      ]
+    },
+    {
+      "Properties": {
+        "name": "SALES-ADMINS@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2009"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2009",
+      "Aces": [],
+      "Members": [
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2340",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2148",
+          "ObjectType": "User"
+        }
+      ]
+    },
+    {
+      "Properties": {
+        "name": "MARKETING-USERS@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2010"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2010",
+      "Aces": [],
+      "Members": [
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2035",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2037",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2038",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2044",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2066",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2090",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2095",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2096",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2104",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2110",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2171",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2172",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2175",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2186",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2189",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2190",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2191",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2198",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2199",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2213",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2226",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2227",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2228",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2233",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2235",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2247",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2257",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2275",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2282",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2298",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2303",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2311",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2317",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2338",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2339",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2365",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2368",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2383",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2387",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2391",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2399",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2402",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2407",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2417",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2423",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2435",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2441",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2444",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2448",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2453",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2462",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2464",
+          "ObjectType": "User"
+        }
+      ]
+    },
+    {
+      "Properties": {
+        "name": "MARKETING-ADMINS@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2011"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2011",
+      "Aces": [],
+      "Members": [
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2453",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2175",
+          "ObjectType": "User"
+        }
+      ]
+    },
+    {
+      "Properties": {
+        "name": "LEGAL-USERS@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2012"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2012",
+      "Aces": [],
+      "Members": [
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2028",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2039",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2050",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2060",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2099",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2103",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2106",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2122",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2125",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2130",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2140",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2144",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2149",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2160",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2206",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2216",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2250",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2251",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2278",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2292",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2294",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2307",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2312",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2327",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2332",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2333",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2355",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2360",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2361",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2364",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2372",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2379",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2380",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2384",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2386",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2394",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2408",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2414",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2420",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2430",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2434",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2436",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2465",
+          "ObjectType": "User"
+        }
+      ]
+    },
+    {
+      "Properties": {
+        "name": "LEGAL-ADMINS@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2013"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2013",
+      "Aces": [],
+      "Members": [
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2420",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2332",
+          "ObjectType": "User"
+        }
+      ]
+    },
+    {
+      "Properties": {
+        "name": "OPERATIONS-USERS@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2014"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2014",
+      "Aces": [],
+      "Members": [
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2047",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2055",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2058",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2084",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2089",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2094",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2137",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2165",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2167",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2193",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2195",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2201",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2242",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2248",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2253",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2260",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2263",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2272",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2306",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2323",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2343",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2359",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2406",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2429",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2432",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2443",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2449",
+          "ObjectType": "User"
+        }
+      ]
+    },
+    {
+      "Properties": {
+        "name": "OPERATIONS-ADMINS@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2015"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2015",
+      "Aces": [],
+      "Members": [
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2359",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2047",
+          "ObjectType": "User"
+        }
+      ]
+    },
+    {
+      "Properties": {
+        "name": "SECURITY-USERS@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2016"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2016",
+      "Aces": [],
+      "Members": [
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2030",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2059",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2065",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2114",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2117",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2123",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2143",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2158",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2159",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2164",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2173",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2181",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2188",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2212",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2230",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2245",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2259",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2265",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2267",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2268",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2280",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2293",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2322",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2344",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2350",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2371",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2426",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2469",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2473",
+          "ObjectType": "User"
+        }
+      ]
+    },
+    {
+      "Properties": {
+        "name": "SECURITY-ADMINS@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2017"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2017",
+      "Aces": [],
+      "Members": [
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2212",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2280",
+          "ObjectType": "User"
+        }
+      ]
+    },
+    {
+      "Properties": {
+        "name": "SUPPORT-USERS@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2018"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2018",
+      "Aces": [],
+      "Members": [
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2029",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2040",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2046",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2049",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2071",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2073",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2085",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2086",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2093",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2098",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2112",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2118",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2134",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2138",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2150",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2157",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2187",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2214",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2231",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2243",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2255",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2258",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2261",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2264",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2270",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2300",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2320",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2331",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2349",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2358",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2366",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2377",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2396",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2403",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2459",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2460",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2467",
+          "ObjectType": "User"
+        }
+      ]
+    },
+    {
+      "Properties": {
+        "name": "SUPPORT-ADMINS@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2019"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2019",
+      "Aces": [],
+      "Members": [
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2098",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2085",
+          "ObjectType": "User"
+        }
+      ]
+    },
+    {
+      "Properties": {
+        "name": "PROCUREMENT-USERS@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2020"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2020",
+      "Aces": [],
+      "Members": [
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2033",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2052",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2067",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2080",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2092",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2108",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2121",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2127",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2129",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2131",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2142",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2154",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2168",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2170",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2176",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2179",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2180",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2185",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2197",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2205",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2209",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2244",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2274",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2277",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2284",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2285",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2295",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2309",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2310",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2314",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2324",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2326",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2329",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2336",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2356",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2362",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2375",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2389",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2393",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2411",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2425",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2437",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2440",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2457",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2468",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2471",
+          "ObjectType": "User"
+        }
+      ]
+    },
+    {
+      "Properties": {
+        "name": "PROCUREMENT-ADMINS@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2021"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2021",
+      "Aces": [],
+      "Members": [
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2457",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2176",
+          "ObjectType": "User"
+        }
+      ]
+    },
+    {
+      "Properties": {
+        "name": "RESEARCH-USERS@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2022"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2022",
+      "Aces": [],
+      "Members": [
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2024",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2025",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2026",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2032",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2042",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2051",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2068",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2077",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2097",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2107",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2132",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2136",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2145",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2152",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2162",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2166",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2184",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2202",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2203",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2207",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2208",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2219",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2241",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2249",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2262",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2273",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2290",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2305",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2352",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2373",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2381",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2388",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2401",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2421",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2424",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2433",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2438",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2439",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2442",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2445",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2450",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2463",
+          "ObjectType": "User"
+        }
+      ]
+    },
+    {
+      "Properties": {
+        "name": "RESEARCH-ADMINS@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2023"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2023",
+      "Aces": [],
+      "Members": [
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2032",
+          "ObjectType": "User"
+        },
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2401",
+          "ObjectType": "User"
+        }
+      ]
+    },
+    {
+      "Properties": {
+        "name": "HELPDESK-OPERATORS@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-1100"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-1100",
+      "Aces": [],
+      "Members": [
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-1000",
+          "ObjectType": "User"
+        }
+      ]
+    },
+    {
+      "Properties": {
+        "name": "FINANCE-ADMINS@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-1101"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-1101",
+      "Aces": [],
+      "Members": [
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-1001",
+          "ObjectType": "User"
+        }
+      ]
+    },
+    {
+      "Properties": {
+        "name": "SERVER-ADMINS@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-1102"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-1102",
+      "Aces": [],
+      "Members": [
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-1002",
+          "ObjectType": "User"
+        }
+      ]
+    },
+    {
+      "Properties": {
+        "name": "DOMAIN ADMINS@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-512"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-512",
+      "Aces": [],
+      "Members": [
+        {
+          "ObjectIdentifier": "S-1-5-21-5500-5501-5502-500",
+          "ObjectType": "User"
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "type": "groups",
+    "count": 28,
+    "version": 5
+  }
+}

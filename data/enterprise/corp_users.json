@@ -1,0 +1,5054 @@
+{
+  "data": [
+    {
+      "Properties": {
+        "name": "nicholas.lopez@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2024",
+        "enabled": true,
+        "department": "Research"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2024",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "joshua.gonzalez@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2025",
+        "enabled": true,
+        "department": "Research"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2025",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "jason.carter@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2026",
+        "enabled": true,
+        "department": "Research"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2026",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "kimberly.wright@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2027",
+        "enabled": true,
+        "department": "Engineering"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2027",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "angela.thompson@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2028",
+        "enabled": true,
+        "department": "Legal"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2028",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "anna.campbell@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2029",
+        "enabled": true,
+        "department": "Support"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2029",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "margaret.martin@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2030",
+        "enabled": true,
+        "department": "Security"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2030",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "kevin.king@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2031",
+        "enabled": true,
+        "department": "HumanResources"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2031",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "anthony.hall@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2032",
+        "enabled": true,
+        "department": "Research"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2032",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "cynthia.rivera@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2033",
+        "enabled": true,
+        "department": "Procurement"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2033",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "charles.wright@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2034",
+        "enabled": true,
+        "department": "Engineering"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2034",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "jason.brown@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2035",
+        "enabled": true,
+        "department": "Marketing"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2035",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "rebecca.robinson@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2036",
+        "enabled": true,
+        "department": "HumanResources"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2036",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "sarah.carter@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2037",
+        "enabled": true,
+        "department": "Marketing"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2037",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "deborah.perez@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2038",
+        "enabled": true,
+        "department": "Marketing"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2038",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "betty.lee@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2039",
+        "enabled": true,
+        "department": "Legal"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2039",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "rebecca.lee@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2040",
+        "enabled": true,
+        "department": "Support"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2040",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "margaret.clark@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2041",
+        "enabled": true,
+        "department": "Engineering"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2041",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "anthony.williams@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2042",
+        "enabled": true,
+        "department": "Research"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2042",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "mark.carter@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2043",
+        "enabled": true,
+        "department": "Finance"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2043",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "kimberly.allen@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2044",
+        "enabled": true,
+        "department": "Marketing"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2044",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "rebecca.flores@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2045",
+        "enabled": true,
+        "department": "HumanResources"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2045",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "kevin.adams@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2046",
+        "enabled": true,
+        "department": "Support"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2046",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "sandra.thomas@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2047",
+        "enabled": true,
+        "department": "Operations"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2047",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "george.rodriguez@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2048",
+        "enabled": true,
+        "department": "Engineering"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2048",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "melissa.young@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2049",
+        "enabled": true,
+        "department": "Support"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2049",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "charles.taylor@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2050",
+        "enabled": true,
+        "department": "Legal"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2050",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "amanda.perez@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2051",
+        "enabled": true,
+        "department": "Research"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2051",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "cynthia.hernandez@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2052",
+        "enabled": true,
+        "department": "Procurement"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2052",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "thomas.perez@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2053",
+        "enabled": true,
+        "department": "Engineering"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2053",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "william.miller@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2054",
+        "enabled": true,
+        "department": "IT"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2054",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "james.martinez@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2055",
+        "enabled": true,
+        "department": "Operations"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2055",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "donald.thompson@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2056",
+        "enabled": true,
+        "department": "Engineering"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2056",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "david.gonzalez@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2057",
+        "enabled": true,
+        "department": "Sales"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2057",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "donald.hall@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2058",
+        "enabled": true,
+        "department": "Operations"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2058",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "kimberly.walker@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2059",
+        "enabled": true,
+        "department": "Security"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2059",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "sharon.nelson@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2060",
+        "enabled": true,
+        "department": "Legal"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2060",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "betty.jones@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2061",
+        "enabled": true,
+        "department": "Sales"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2061",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "joshua.moore@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2062",
+        "enabled": true,
+        "department": "IT"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2062",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "steven.king@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2063",
+        "enabled": true,
+        "department": "HumanResources"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2063",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "angela.wilson@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2064",
+        "enabled": true,
+        "department": "Engineering"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2064",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "deborah.lopez@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2065",
+        "enabled": true,
+        "department": "Security"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2065",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "mark.lee@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2066",
+        "enabled": true,
+        "department": "Marketing"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2066",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "jennifer.nguyen@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2067",
+        "enabled": true,
+        "department": "Procurement"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2067",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "brenda.harris@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2068",
+        "enabled": true,
+        "department": "Research"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2068",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "elizabeth.davis@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2069",
+        "enabled": true,
+        "department": "Engineering"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2069",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "linda.king@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2070",
+        "enabled": true,
+        "department": "IT"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2070",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "anthony.green@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2071",
+        "enabled": true,
+        "department": "Support"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2071",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "barbara.allen@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2072",
+        "enabled": true,
+        "department": "IT"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2072",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "donald.young@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2073",
+        "enabled": true,
+        "department": "Support"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2073",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "nancy.hernandez@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2074",
+        "enabled": true,
+        "department": "HumanResources"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2074",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "thomas.flores@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2075",
+        "enabled": true,
+        "department": "HumanResources"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2075",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "patricia.hill@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2076",
+        "enabled": true,
+        "department": "HumanResources"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2076",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "lisa.wright@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2077",
+        "enabled": true,
+        "department": "Research"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2077",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "kenneth.smith@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2078",
+        "enabled": true,
+        "department": "HumanResources"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2078",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "emily.johnson@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2079",
+        "enabled": true,
+        "department": "IT"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2079",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "linda.miller@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2080",
+        "enabled": true,
+        "department": "Procurement"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2080",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "anthony.nguyen@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2081",
+        "enabled": true,
+        "department": "Engineering"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2081",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "matthew.robinson@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2082",
+        "enabled": true,
+        "department": "IT"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2082",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "nicholas.lee@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2083",
+        "enabled": true,
+        "department": "Sales"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2083",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "ryan.green@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2084",
+        "enabled": true,
+        "department": "Operations"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2084",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "margaret.sanchez@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2085",
+        "enabled": true,
+        "department": "Support"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2085",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "laura.clark@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2086",
+        "enabled": true,
+        "department": "Support"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2086",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "sarah.wilson@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2087",
+        "enabled": true,
+        "department": "IT"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2087",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "michelle.sanchez@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2088",
+        "enabled": true,
+        "department": "Engineering"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2088",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "daniel.thompson@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2089",
+        "enabled": true,
+        "department": "Operations"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2089",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "mary.davis@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2090",
+        "enabled": true,
+        "department": "Marketing"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2090",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "james.roberts@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2091",
+        "enabled": true,
+        "department": "Engineering"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2091",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "jacob.clark@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2092",
+        "enabled": true,
+        "department": "Procurement"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2092",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "robert.wilson@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2093",
+        "enabled": true,
+        "department": "Support"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2093",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "cynthia.scott@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2094",
+        "enabled": true,
+        "department": "Operations"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2094",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "michael.ramirez@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2095",
+        "enabled": true,
+        "department": "Marketing"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2095",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "mary.allen@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2096",
+        "enabled": true,
+        "department": "Marketing"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2096",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "steven.nelson@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2097",
+        "enabled": true,
+        "department": "Research"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2097",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "christopher.anderson@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2098",
+        "enabled": true,
+        "department": "Support"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2098",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "susan.evans@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2099",
+        "enabled": true,
+        "department": "Legal"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2099",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "william.rodriguez@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2100",
+        "enabled": true,
+        "department": "IT"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2100",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "patricia.perez@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2101",
+        "enabled": true,
+        "department": "Sales"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2101",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "steven.young@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2102",
+        "enabled": true,
+        "department": "IT"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2102",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "george.robinson@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2103",
+        "enabled": true,
+        "department": "Legal"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2103",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "eric.flores@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2104",
+        "enabled": true,
+        "department": "Marketing"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2104",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "christopher.williams@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2105",
+        "enabled": true,
+        "department": "HumanResources"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2105",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "jessica.white@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2106",
+        "enabled": true,
+        "department": "Legal"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2106",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "lisa.allen@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2107",
+        "enabled": true,
+        "department": "Research"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2107",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "richard.brown@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2108",
+        "enabled": true,
+        "department": "Procurement"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2108",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "sharon.johnson@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2109",
+        "enabled": true,
+        "department": "Sales"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2109",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "sandra.davis@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2110",
+        "enabled": true,
+        "department": "Marketing"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2110",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "brenda.torres@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2111",
+        "enabled": true,
+        "department": "IT"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2111",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "margaret.torres@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2112",
+        "enabled": true,
+        "department": "Support"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2112",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "susan.ramirez@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2113",
+        "enabled": true,
+        "department": "HumanResources"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2113",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "paul.ramirez@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2114",
+        "enabled": true,
+        "department": "Security"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2114",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "christopher.carter@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2115",
+        "enabled": true,
+        "department": "Engineering"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2115",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "james.allen@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2116",
+        "enabled": true,
+        "department": "HumanResources"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2116",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "betty.harris@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2117",
+        "enabled": true,
+        "department": "Security"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2117",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "jason.lewis@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2118",
+        "enabled": true,
+        "department": "Support"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2118",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "daniel.adams@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2119",
+        "enabled": true,
+        "department": "Engineering"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2119",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "donna.evans@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2120",
+        "enabled": true,
+        "department": "Sales"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2120",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "dorothy.lewis@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2121",
+        "enabled": true,
+        "department": "Procurement"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2121",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "joseph.sanchez@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2122",
+        "enabled": true,
+        "department": "Legal"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2122",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "andrew.lee@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2123",
+        "enabled": true,
+        "department": "Security"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2123",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "jonathan.anderson@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2124",
+        "enabled": true,
+        "department": "Engineering"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2124",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "dorothy.anderson@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2125",
+        "enabled": true,
+        "department": "Legal"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2125",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "cynthia.torres@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2126",
+        "enabled": true,
+        "department": "Sales"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2126",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "andrew.baker@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2127",
+        "enabled": true,
+        "department": "Procurement"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2127",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "brenda.brown@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2128",
+        "enabled": true,
+        "department": "Sales"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2128",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "timothy.evans@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2129",
+        "enabled": true,
+        "department": "Procurement"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2129",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "anthony.taylor@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2130",
+        "enabled": true,
+        "department": "Legal"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2130",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "jonathan.rodriguez@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2131",
+        "enabled": true,
+        "department": "Procurement"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2131",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "kenneth.jackson@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2132",
+        "enabled": true,
+        "department": "Research"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2132",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "larry.phillips@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2133",
+        "enabled": true,
+        "department": "IT"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2133",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "mark.robinson@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2134",
+        "enabled": true,
+        "department": "Support"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2134",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "emily.jackson@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2135",
+        "enabled": true,
+        "department": "Engineering"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2135",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "jonathan.harris@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2136",
+        "enabled": true,
+        "department": "Research"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2136",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "andrew.lopez@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2137",
+        "enabled": true,
+        "department": "Operations"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2137",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "george.johnson@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2138",
+        "enabled": true,
+        "department": "Support"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2138",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "timothy.hall@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2139",
+        "enabled": true,
+        "department": "HumanResources"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2139",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "sarah.miller@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2140",
+        "enabled": true,
+        "department": "Legal"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2140",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "carol.gonzalez@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2141",
+        "enabled": true,
+        "department": "HumanResources"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2141",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "steven.williams@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2142",
+        "enabled": true,
+        "department": "Procurement"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2142",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "kimberly.nelson@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2143",
+        "enabled": true,
+        "department": "Security"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2143",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "matthew.phillips@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2144",
+        "enabled": true,
+        "department": "Legal"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2144",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "nancy.gonzalez@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2145",
+        "enabled": true,
+        "department": "Research"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2145",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "nicholas.evans@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2146",
+        "enabled": true,
+        "department": "Sales"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2146",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "william.robinson@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2147",
+        "enabled": true,
+        "department": "HumanResources"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2147",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "richard.nguyen@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2148",
+        "enabled": true,
+        "department": "Sales"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2148",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "thomas.mitchell@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2149",
+        "enabled": true,
+        "department": "Legal"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2149",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "richard.anderson@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2150",
+        "enabled": true,
+        "department": "Support"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2150",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "donald.hernandez@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2151",
+        "enabled": true,
+        "department": "Sales"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2151",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "sarah.evans@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2152",
+        "enabled": true,
+        "department": "Research"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2152",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "deborah.baker@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2153",
+        "enabled": true,
+        "department": "HumanResources"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2153",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "jason.perez@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2154",
+        "enabled": true,
+        "department": "Procurement"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2154",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "kevin.scott@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2155",
+        "enabled": true,
+        "department": "Engineering"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2155",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "john.hill@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2156",
+        "enabled": true,
+        "department": "Sales"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2156",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "timothy.rodriguez@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2157",
+        "enabled": true,
+        "department": "Support"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2157",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "paul.hernandez@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2158",
+        "enabled": true,
+        "department": "Security"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2158",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "steven.wilson@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2159",
+        "enabled": true,
+        "department": "Security"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2159",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "thomas.hall@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2160",
+        "enabled": true,
+        "department": "Legal"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2160",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "brenda.gonzalez@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2161",
+        "enabled": true,
+        "department": "IT"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2161",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "thomas.baker@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2162",
+        "enabled": true,
+        "department": "Research"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2162",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "sandra.taylor@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2163",
+        "enabled": true,
+        "department": "Finance"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2163",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "joseph.ramirez@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2164",
+        "enabled": true,
+        "department": "Security"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2164",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "rebecca.williams@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2165",
+        "enabled": true,
+        "department": "Operations"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2165",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "karen.moore@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2166",
+        "enabled": true,
+        "department": "Research"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2166",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "brian.jackson@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2167",
+        "enabled": true,
+        "department": "Operations"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2167",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "laura.scott@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2168",
+        "enabled": true,
+        "department": "Procurement"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2168",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "robert.baker@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2169",
+        "enabled": true,
+        "department": "Sales"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2169",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "lisa.harris@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2170",
+        "enabled": true,
+        "department": "Procurement"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2170",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "angela.green@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2171",
+        "enabled": true,
+        "department": "Marketing"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2171",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "jacob.young@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2172",
+        "enabled": true,
+        "department": "Marketing"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2172",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "christopher.jones@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2173",
+        "enabled": true,
+        "department": "Security"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2173",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "paul.gonzalez@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2174",
+        "enabled": true,
+        "department": "IT"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2174",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "jeffrey.robinson@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2175",
+        "enabled": true,
+        "department": "Marketing"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2175",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "michael.jackson@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2176",
+        "enabled": true,
+        "department": "Procurement"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2176",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "david.rivera@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2177",
+        "enabled": true,
+        "department": "HumanResources"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2177",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "amy.robinson@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2178",
+        "enabled": true,
+        "department": "Engineering"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2178",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "anna.allen@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2179",
+        "enabled": true,
+        "department": "Procurement"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2179",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "sandra.nelson@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2180",
+        "enabled": true,
+        "department": "Procurement"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2180",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "kenneth.adams@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2181",
+        "enabled": true,
+        "department": "Security"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2181",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "joshua.young@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2182",
+        "enabled": true,
+        "department": "Sales"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2182",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "linda.baker@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2183",
+        "enabled": true,
+        "department": "Engineering"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2183",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "brenda.walker@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2184",
+        "enabled": true,
+        "department": "Research"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2184",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "ashley.martin@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2185",
+        "enabled": true,
+        "department": "Procurement"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2185",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "kenneth.taylor@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2186",
+        "enabled": true,
+        "department": "Marketing"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2186",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "jennifer.rodriguez@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2187",
+        "enabled": true,
+        "department": "Support"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2187",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "larry.gomez@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2188",
+        "enabled": true,
+        "department": "Security"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2188",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "kimberly.thompson@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2189",
+        "enabled": true,
+        "department": "Marketing"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2189",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "karen.brown@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2190",
+        "enabled": true,
+        "department": "Marketing"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2190",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "mary.flores@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2191",
+        "enabled": true,
+        "department": "Marketing"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2191",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "kenneth.gonzalez@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2192",
+        "enabled": true,
+        "department": "IT"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2192",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "andrew.phillips@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2193",
+        "enabled": true,
+        "department": "Operations"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2193",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "anna.brown@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2194",
+        "enabled": true,
+        "department": "IT"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2194",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "richard.gomez@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2195",
+        "enabled": true,
+        "department": "Operations"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2195",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "kimberly.sanchez@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2196",
+        "enabled": true,
+        "department": "Finance"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2196",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "jason.gonzalez@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2197",
+        "enabled": true,
+        "department": "Procurement"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2197",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "sarah.rodriguez@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2198",
+        "enabled": true,
+        "department": "Marketing"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2198",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "mary.lewis@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2199",
+        "enabled": true,
+        "department": "Marketing"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2199",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "rebecca.thomas@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2200",
+        "enabled": true,
+        "department": "HumanResources"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2200",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "amanda.flores@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2201",
+        "enabled": true,
+        "department": "Operations"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2201",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "carol.smith@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2202",
+        "enabled": true,
+        "department": "Research"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2202",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "jonathan.clark@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2203",
+        "enabled": true,
+        "department": "Research"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2203",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "jeffrey.gonzalez@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2204",
+        "enabled": true,
+        "department": "IT"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2204",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "joseph.allen@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2205",
+        "enabled": true,
+        "department": "Procurement"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2205",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "jason.young@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2206",
+        "enabled": true,
+        "department": "Legal"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2206",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "angela.lewis@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2207",
+        "enabled": true,
+        "department": "Research"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2207",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "mark.williams@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2208",
+        "enabled": true,
+        "department": "Research"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2208",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "laura.nelson@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2209",
+        "enabled": true,
+        "department": "Procurement"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2209",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "anna.evans@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2210",
+        "enabled": true,
+        "department": "HumanResources"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2210",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "paul.phillips@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2211",
+        "enabled": true,
+        "department": "HumanResources"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2211",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "melissa.green@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2212",
+        "enabled": true,
+        "department": "Security"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2212",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "george.jones@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2213",
+        "enabled": true,
+        "department": "Marketing"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2213",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "amy.hill@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2214",
+        "enabled": true,
+        "department": "Support"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2214",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "nicholas.mitchell@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2215",
+        "enabled": true,
+        "department": "Sales"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2215",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "jason.campbell@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2216",
+        "enabled": true,
+        "department": "Legal"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2216",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "jacob.green@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2217",
+        "enabled": true,
+        "department": "Sales"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2217",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "joseph.johnson@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2218",
+        "enabled": true,
+        "department": "Engineering"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2218",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "anna.rivera@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2219",
+        "enabled": true,
+        "department": "Research"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2219",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "edward.hernandez@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2220",
+        "enabled": true,
+        "department": "IT"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2220",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "matthew.smith@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2221",
+        "enabled": true,
+        "department": "Finance"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2221",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "paul.brown@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2222",
+        "enabled": true,
+        "department": "HumanResources"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2222",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "kevin.hernandez@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2223",
+        "enabled": true,
+        "department": "Engineering"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2223",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "donald.king@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2224",
+        "enabled": true,
+        "department": "Sales"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2224",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "elizabeth.martinez@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2225",
+        "enabled": true,
+        "department": "Finance"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2225",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "steven.evans@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2226",
+        "enabled": true,
+        "department": "Marketing"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2226",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "david.king@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2227",
+        "enabled": true,
+        "department": "Marketing"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2227",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "nancy.miller@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2228",
+        "enabled": true,
+        "department": "Marketing"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2228",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "steven.gomez@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2229",
+        "enabled": true,
+        "department": "Finance"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2229",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "shirley.carter@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2230",
+        "enabled": true,
+        "department": "Security"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2230",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "sharon.lewis@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2231",
+        "enabled": true,
+        "department": "Support"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2231",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "ashley.gomez@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2232",
+        "enabled": true,
+        "department": "Finance"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2232",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "charles.carter@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2233",
+        "enabled": true,
+        "department": "Marketing"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2233",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "paul.wright@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2234",
+        "enabled": true,
+        "department": "Finance"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2234",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "ryan.thomas@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2235",
+        "enabled": true,
+        "department": "Marketing"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2235",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "jeffrey.brown@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2236",
+        "enabled": true,
+        "department": "IT"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2236",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "anthony.perez@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2237",
+        "enabled": true,
+        "department": "HumanResources"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2237",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "jessica.robinson@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2238",
+        "enabled": true,
+        "department": "HumanResources"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2238",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "david.anderson@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2239",
+        "enabled": true,
+        "department": "Finance"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2239",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "david.evans@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2240",
+        "enabled": true,
+        "department": "IT"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2240",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "cynthia.wilson@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2241",
+        "enabled": true,
+        "department": "Research"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2241",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "betty.anderson@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2242",
+        "enabled": true,
+        "department": "Operations"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2242",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "jason.flores@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2243",
+        "enabled": true,
+        "department": "Support"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2243",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "david.roberts@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2244",
+        "enabled": true,
+        "department": "Procurement"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2244",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "rebecca.carter@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2245",
+        "enabled": true,
+        "department": "Security"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2245",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "deborah.king@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2246",
+        "enabled": true,
+        "department": "Sales"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2246",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "charles.thomas@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2247",
+        "enabled": true,
+        "department": "Marketing"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2247",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "betty.martinez@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2248",
+        "enabled": true,
+        "department": "Operations"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2248",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "john.hall@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2249",
+        "enabled": true,
+        "department": "Research"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2249",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "thomas.moore@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2250",
+        "enabled": true,
+        "department": "Legal"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2250",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "donald.baker@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2251",
+        "enabled": true,
+        "department": "Legal"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2251",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "stephanie.baker@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2252",
+        "enabled": true,
+        "department": "IT"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2252",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "deborah.harris@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2253",
+        "enabled": true,
+        "department": "Operations"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2253",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "jessica.campbell@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2254",
+        "enabled": true,
+        "department": "Sales"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2254",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "brenda.taylor@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2255",
+        "enabled": true,
+        "department": "Support"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2255",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "charles.lee@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2256",
+        "enabled": true,
+        "department": "HumanResources"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2256",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "george.garcia@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2257",
+        "enabled": true,
+        "department": "Marketing"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2257",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "angela.davis@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2258",
+        "enabled": true,
+        "department": "Support"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2258",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "matthew.rodriguez@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2259",
+        "enabled": true,
+        "department": "Security"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2259",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "sarah.phillips@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2260",
+        "enabled": true,
+        "department": "Operations"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2260",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "susan.hill@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2261",
+        "enabled": true,
+        "department": "Support"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2261",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "stephanie.robinson@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2262",
+        "enabled": true,
+        "department": "Research"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2262",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "jason.mitchell@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2263",
+        "enabled": true,
+        "department": "Operations"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2263",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "eric.lee@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2264",
+        "enabled": true,
+        "department": "Support"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2264",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "kenneth.flores@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2265",
+        "enabled": true,
+        "department": "Security"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2265",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "donald.lopez@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2266",
+        "enabled": true,
+        "department": "Engineering"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2266",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "jason.johnson@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2267",
+        "enabled": true,
+        "department": "Security"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2267",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "ryan.mitchell@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2268",
+        "enabled": true,
+        "department": "Security"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2268",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "george.williams@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2269",
+        "enabled": true,
+        "department": "Sales"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2269",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "christopher.hall@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2270",
+        "enabled": true,
+        "department": "Support"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2270",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "emily.anderson@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2271",
+        "enabled": true,
+        "department": "Engineering"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2271",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "sharon.green@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2272",
+        "enabled": true,
+        "department": "Operations"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2272",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "brian.king@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2273",
+        "enabled": true,
+        "department": "Research"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2273",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "barbara.robinson@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2274",
+        "enabled": true,
+        "department": "Procurement"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2274",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "jonathan.martin@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2275",
+        "enabled": true,
+        "department": "Marketing"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2275",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "john.flores@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2276",
+        "enabled": true,
+        "department": "Engineering"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2276",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "nicholas.wilson@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2277",
+        "enabled": true,
+        "department": "Procurement"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2277",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "andrew.lewis@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2278",
+        "enabled": true,
+        "department": "Legal"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2278",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "shirley.garcia@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2279",
+        "enabled": true,
+        "department": "IT"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2279",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "amy.adams@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2280",
+        "enabled": true,
+        "department": "Security"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2280",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "rebecca.martin@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2281",
+        "enabled": true,
+        "department": "Sales"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2281",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "jacob.campbell@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2282",
+        "enabled": true,
+        "department": "Marketing"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2282",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "barbara.martinez@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2283",
+        "enabled": true,
+        "department": "Engineering"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2283",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "david.wright@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2284",
+        "enabled": true,
+        "department": "Procurement"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2284",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "robert.nguyen@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2285",
+        "enabled": true,
+        "department": "Procurement"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2285",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "angela.baker@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2286",
+        "enabled": true,
+        "department": "Engineering"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2286",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "christopher.hernandez@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2287",
+        "enabled": true,
+        "department": "HumanResources"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2287",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "steven.sanchez@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2288",
+        "enabled": true,
+        "department": "IT"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2288",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "larry.lee@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2289",
+        "enabled": true,
+        "department": "Sales"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2289",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "carol.nelson@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2290",
+        "enabled": true,
+        "department": "Research"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2290",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "amanda.young@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2291",
+        "enabled": true,
+        "department": "IT"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2291",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "jeffrey.thomas@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2292",
+        "enabled": true,
+        "department": "Legal"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2292",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "laura.garcia@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2293",
+        "enabled": true,
+        "department": "Security"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2293",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "jennifer.williams@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2294",
+        "enabled": true,
+        "department": "Legal"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2294",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "andrew.hernandez@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2295",
+        "enabled": true,
+        "department": "Procurement"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2295",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "susan.nguyen@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2296",
+        "enabled": true,
+        "department": "IT"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2296",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "anthony.garcia@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2297",
+        "enabled": true,
+        "department": "IT"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2297",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "jessica.miller@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2298",
+        "enabled": true,
+        "department": "Marketing"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2298",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "john.campbell@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2299",
+        "enabled": true,
+        "department": "HumanResources"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2299",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "sandra.hill@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2300",
+        "enabled": true,
+        "department": "Support"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2300",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "shirley.robinson@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2301",
+        "enabled": true,
+        "department": "Engineering"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2301",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "amy.gonzalez@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2302",
+        "enabled": true,
+        "department": "Finance"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2302",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "michelle.campbell@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2303",
+        "enabled": true,
+        "department": "Marketing"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2303",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "deborah.roberts@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2304",
+        "enabled": true,
+        "department": "Sales"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2304",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "patricia.jones@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2305",
+        "enabled": true,
+        "department": "Research"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2305",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "jonathan.hall@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2306",
+        "enabled": true,
+        "department": "Operations"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2306",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "melissa.lee@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2307",
+        "enabled": true,
+        "department": "Legal"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2307",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "ryan.martinez@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2308",
+        "enabled": true,
+        "department": "HumanResources"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2308",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "andrew.mitchell@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2309",
+        "enabled": true,
+        "department": "Procurement"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2309",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "jessica.hernandez@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2310",
+        "enabled": true,
+        "department": "Procurement"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2310",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "mark.flores@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2311",
+        "enabled": true,
+        "department": "Marketing"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2311",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "anna.thomas@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2312",
+        "enabled": true,
+        "department": "Legal"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2312",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "nancy.thompson@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2313",
+        "enabled": true,
+        "department": "Engineering"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2313",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "thomas.harris@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2314",
+        "enabled": true,
+        "department": "Procurement"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2314",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "elizabeth.lopez@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2315",
+        "enabled": true,
+        "department": "Engineering"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2315",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "patricia.martin@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2316",
+        "enabled": true,
+        "department": "HumanResources"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2316",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "ashley.young@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2317",
+        "enabled": true,
+        "department": "Marketing"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2317",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "rebecca.wilson@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2318",
+        "enabled": true,
+        "department": "Finance"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2318",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "linda.moore@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2319",
+        "enabled": true,
+        "department": "Engineering"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2319",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "kenneth.lewis@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2320",
+        "enabled": true,
+        "department": "Support"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2320",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "margaret.green@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2321",
+        "enabled": true,
+        "department": "Finance"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2321",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "sandra.garcia@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2322",
+        "enabled": true,
+        "department": "Security"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2322",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "steven.carter@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2323",
+        "enabled": true,
+        "department": "Operations"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2323",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "jonathan.lopez@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2324",
+        "enabled": true,
+        "department": "Procurement"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2324",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "jonathan.white@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2325",
+        "enabled": true,
+        "department": "Finance"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2325",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "robert.lewis@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2326",
+        "enabled": true,
+        "department": "Procurement"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2326",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "jason.lee@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2327",
+        "enabled": true,
+        "department": "Legal"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2327",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "ronald.jones@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2328",
+        "enabled": true,
+        "department": "HumanResources"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2328",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "daniel.lee@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2329",
+        "enabled": true,
+        "department": "Procurement"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2329",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "kimberly.carter@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2330",
+        "enabled": true,
+        "department": "IT"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2330",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "richard.scott@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2331",
+        "enabled": true,
+        "department": "Support"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2331",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "sandra.johnson@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2332",
+        "enabled": true,
+        "department": "Legal"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2332",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "lisa.baker@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2333",
+        "enabled": true,
+        "department": "Legal"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2333",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "melissa.rodriguez@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2334",
+        "enabled": true,
+        "department": "Finance"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2334",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "george.hill@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2335",
+        "enabled": true,
+        "department": "HumanResources"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2335",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "mark.thomas@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2336",
+        "enabled": true,
+        "department": "Procurement"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2336",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "emily.rodriguez@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2337",
+        "enabled": true,
+        "department": "Sales"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2337",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "james.walker@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2338",
+        "enabled": true,
+        "department": "Marketing"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2338",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "sharon.clark@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2339",
+        "enabled": true,
+        "department": "Marketing"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2339",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "michael.smith@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2340",
+        "enabled": true,
+        "department": "Sales"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2340",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "jennifer.young@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2341",
+        "enabled": true,
+        "department": "Finance"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2341",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "matthew.king@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2342",
+        "enabled": true,
+        "department": "Engineering"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2342",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "donald.allen@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2343",
+        "enabled": true,
+        "department": "Operations"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2343",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "lisa.nguyen@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2344",
+        "enabled": true,
+        "department": "Security"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2344",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "mary.mitchell@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2345",
+        "enabled": true,
+        "department": "HumanResources"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2345",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "richard.johnson@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2346",
+        "enabled": true,
+        "department": "HumanResources"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2346",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "eric.rivera@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2347",
+        "enabled": true,
+        "department": "Finance"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2347",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "michelle.roberts@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2348",
+        "enabled": true,
+        "department": "Sales"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2348",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "timothy.hill@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2349",
+        "enabled": true,
+        "department": "Support"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2349",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "linda.carter@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2350",
+        "enabled": true,
+        "department": "Security"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2350",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "robert.wright@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2351",
+        "enabled": true,
+        "department": "HumanResources"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2351",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "ashley.torres@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2352",
+        "enabled": true,
+        "department": "Research"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2352",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "jason.jones@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2353",
+        "enabled": true,
+        "department": "Finance"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2353",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "william.perez@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2354",
+        "enabled": true,
+        "department": "HumanResources"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2354",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "richard.williams@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2355",
+        "enabled": true,
+        "department": "Legal"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2355",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "steven.roberts@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2356",
+        "enabled": true,
+        "department": "Procurement"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2356",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "david.nelson@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2357",
+        "enabled": true,
+        "department": "HumanResources"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2357",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "edward.allen@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2358",
+        "enabled": true,
+        "department": "Support"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2358",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "jennifer.walker@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2359",
+        "enabled": true,
+        "department": "Operations"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2359",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "cynthia.davis@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2360",
+        "enabled": true,
+        "department": "Legal"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2360",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "charles.gonzalez@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2361",
+        "enabled": true,
+        "department": "Legal"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2361",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "daniel.young@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2362",
+        "enabled": true,
+        "department": "Procurement"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2362",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "karen.gonzalez@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2363",
+        "enabled": true,
+        "department": "Engineering"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2363",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "jacob.martin@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2364",
+        "enabled": true,
+        "department": "Legal"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2364",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "john.lewis@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2365",
+        "enabled": true,
+        "department": "Marketing"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2365",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "patricia.torres@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2366",
+        "enabled": true,
+        "department": "Support"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2366",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "angela.evans@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2367",
+        "enabled": true,
+        "department": "Finance"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2367",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "mary.jackson@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2368",
+        "enabled": true,
+        "department": "Marketing"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2368",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "thomas.white@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2369",
+        "enabled": true,
+        "department": "Engineering"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2369",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "jeffrey.johnson@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2370",
+        "enabled": true,
+        "department": "IT"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2370",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "joshua.hall@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2371",
+        "enabled": true,
+        "department": "Security"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2371",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "betty.flores@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2372",
+        "enabled": true,
+        "department": "Legal"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2372",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "paul.wilson@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2373",
+        "enabled": true,
+        "department": "Research"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2373",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "laura.wilson@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2374",
+        "enabled": true,
+        "department": "Engineering"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2374",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "eric.mitchell@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2375",
+        "enabled": true,
+        "department": "Procurement"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2375",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "robert.carter@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2376",
+        "enabled": true,
+        "department": "Finance"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2376",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "susan.sanchez@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2377",
+        "enabled": true,
+        "department": "Support"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2377",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "james.ramirez@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2378",
+        "enabled": true,
+        "department": "Engineering"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2378",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "lisa.taylor@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2379",
+        "enabled": true,
+        "department": "Legal"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2379",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "eric.gomez@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2380",
+        "enabled": true,
+        "department": "Legal"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2380",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "steven.brown@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2381",
+        "enabled": true,
+        "department": "Research"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2381",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "laura.williams@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2382",
+        "enabled": true,
+        "department": "IT"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2382",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "cynthia.evans@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2383",
+        "enabled": true,
+        "department": "Marketing"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2383",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "susan.young@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2384",
+        "enabled": true,
+        "department": "Legal"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2384",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "betty.roberts@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2385",
+        "enabled": true,
+        "department": "IT"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2385",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "robert.mitchell@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2386",
+        "enabled": true,
+        "department": "Legal"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2386",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "kenneth.jones@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2387",
+        "enabled": true,
+        "department": "Marketing"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2387",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "kevin.ramirez@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2388",
+        "enabled": true,
+        "department": "Research"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2388",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "donna.sanchez@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2389",
+        "enabled": true,
+        "department": "Procurement"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2389",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "susan.carter@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2390",
+        "enabled": true,
+        "department": "Sales"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2390",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "nicholas.jones@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2391",
+        "enabled": true,
+        "department": "Marketing"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2391",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "edward.young@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2392",
+        "enabled": true,
+        "department": "HumanResources"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2392",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "donna.roberts@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2393",
+        "enabled": true,
+        "department": "Procurement"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2393",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "cynthia.thompson@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2394",
+        "enabled": true,
+        "department": "Legal"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2394",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "linda.garcia@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2395",
+        "enabled": true,
+        "department": "Finance"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2395",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "laura.carter@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2396",
+        "enabled": true,
+        "department": "Support"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2396",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "melissa.walker@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2397",
+        "enabled": true,
+        "department": "Engineering"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2397",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "mary.jones@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2398",
+        "enabled": true,
+        "department": "HumanResources"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2398",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "barbara.williams@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2399",
+        "enabled": true,
+        "department": "Marketing"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2399",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "donald.miller@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2400",
+        "enabled": true,
+        "department": "Finance"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2400",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "james.jones@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2401",
+        "enabled": true,
+        "department": "Research"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2401",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "elizabeth.miller@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2402",
+        "enabled": true,
+        "department": "Marketing"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2402",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "michael.gonzalez@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2403",
+        "enabled": true,
+        "department": "Support"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2403",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "emily.moore@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2404",
+        "enabled": true,
+        "department": "Finance"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2404",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "edward.walker@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2405",
+        "enabled": true,
+        "department": "HumanResources"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2405",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "brenda.ramirez@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2406",
+        "enabled": true,
+        "department": "Operations"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2406",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "kenneth.campbell@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2407",
+        "enabled": true,
+        "department": "Marketing"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2407",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "donald.robinson@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2408",
+        "enabled": true,
+        "department": "Legal"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2408",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "richard.lewis@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2409",
+        "enabled": true,
+        "department": "HumanResources"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2409",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "michael.walker@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2410",
+        "enabled": true,
+        "department": "HumanResources"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2410",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "nancy.lopez@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2411",
+        "enabled": true,
+        "department": "Procurement"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2411",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "lisa.lopez@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2412",
+        "enabled": true,
+        "department": "Engineering"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2412",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "david.thompson@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2413",
+        "enabled": true,
+        "department": "Finance"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2413",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "sandra.mitchell@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2414",
+        "enabled": true,
+        "department": "Legal"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2414",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "james.campbell@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2415",
+        "enabled": true,
+        "department": "HumanResources"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2415",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "jeffrey.carter@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2416",
+        "enabled": true,
+        "department": "Finance"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2416",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "ronald.brown@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2417",
+        "enabled": true,
+        "department": "Marketing"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2417",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "george.clark@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2418",
+        "enabled": true,
+        "department": "Sales"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2418",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "melissa.hall@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2419",
+        "enabled": true,
+        "department": "Engineering"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2419",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "eric.adams@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2420",
+        "enabled": true,
+        "department": "Legal"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2420",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "karen.smith@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2421",
+        "enabled": true,
+        "department": "Research"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2421",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "sarah.hill@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2422",
+        "enabled": true,
+        "department": "Sales"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2422",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "jonathan.moore@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2423",
+        "enabled": true,
+        "department": "Marketing"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2423",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "jonathan.carter@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2424",
+        "enabled": true,
+        "department": "Research"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2424",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "steven.thomas@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2425",
+        "enabled": true,
+        "department": "Procurement"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2425",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "christopher.garcia@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2426",
+        "enabled": true,
+        "department": "Security"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2426",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "deborah.johnson@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2427",
+        "enabled": true,
+        "department": "Sales"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2427",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "anna.sanchez@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2428",
+        "enabled": true,
+        "department": "HumanResources"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2428",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "joseph.martin@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2429",
+        "enabled": true,
+        "department": "Operations"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2429",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "jennifer.green@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2430",
+        "enabled": true,
+        "department": "Legal"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2430",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "timothy.lee@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2431",
+        "enabled": true,
+        "department": "IT"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2431",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "richard.thomas@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2432",
+        "enabled": true,
+        "department": "Operations"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2432",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "jennifer.perez@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2433",
+        "enabled": true,
+        "department": "Research"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2433",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "amanda.lewis@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2434",
+        "enabled": true,
+        "department": "Legal"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2434",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "charles.phillips@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2435",
+        "enabled": true,
+        "department": "Marketing"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2435",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "sharon.flores@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2436",
+        "enabled": true,
+        "department": "Legal"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2436",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "timothy.lewis@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2437",
+        "enabled": true,
+        "department": "Procurement"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2437",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "dorothy.davis@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2438",
+        "enabled": true,
+        "department": "Research"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2438",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "edward.wilson@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2439",
+        "enabled": true,
+        "department": "Research"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2439",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "dorothy.gonzalez@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2440",
+        "enabled": true,
+        "department": "Procurement"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2440",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "sandra.perez@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2441",
+        "enabled": true,
+        "department": "Marketing"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2441",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "margaret.martinez@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2442",
+        "enabled": true,
+        "department": "Research"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2442",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "lisa.mitchell@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2443",
+        "enabled": true,
+        "department": "Operations"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2443",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "sandra.thompson@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2444",
+        "enabled": true,
+        "department": "Marketing"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2444",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "karen.green@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2445",
+        "enabled": true,
+        "department": "Research"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2445",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "mary.robinson@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2446",
+        "enabled": true,
+        "department": "Engineering"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2446",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "mary.thompson@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2447",
+        "enabled": true,
+        "department": "Engineering"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2447",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "ashley.ramirez@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2448",
+        "enabled": true,
+        "department": "Marketing"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2448",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "kevin.williams@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2449",
+        "enabled": true,
+        "department": "Operations"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2449",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "eric.scott@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2450",
+        "enabled": true,
+        "department": "Research"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2450",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "ryan.sanchez@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2451",
+        "enabled": true,
+        "department": "Finance"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2451",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "karen.gomez@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2452",
+        "enabled": true,
+        "department": "Engineering"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2452",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "mary.young@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2453",
+        "enabled": true,
+        "department": "Marketing"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2453",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "lisa.martin@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2454",
+        "enabled": true,
+        "department": "Finance"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2454",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "brian.hall@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2455",
+        "enabled": true,
+        "department": "Sales"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2455",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "emily.hernandez@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2456",
+        "enabled": true,
+        "department": "IT"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2456",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "kenneth.white@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2457",
+        "enabled": true,
+        "department": "Procurement"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2457",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "anthony.rivera@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2458",
+        "enabled": true,
+        "department": "IT"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2458",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "nicholas.adams@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2459",
+        "enabled": true,
+        "department": "Support"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2459",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "patricia.garcia@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2460",
+        "enabled": true,
+        "department": "Support"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2460",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "susan.garcia@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2461",
+        "enabled": true,
+        "department": "HumanResources"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2461",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "george.green@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2462",
+        "enabled": true,
+        "department": "Marketing"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2462",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "ryan.evans@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2463",
+        "enabled": true,
+        "department": "Research"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2463",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "jeffrey.davis@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2464",
+        "enabled": true,
+        "department": "Marketing"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2464",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "joshua.martinez@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2465",
+        "enabled": true,
+        "department": "Legal"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2465",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "sharon.hill@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2466",
+        "enabled": true,
+        "department": "Finance"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2466",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "sarah.allen@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2467",
+        "enabled": true,
+        "department": "Support"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2467",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "david.nguyen@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2468",
+        "enabled": true,
+        "department": "Procurement"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2468",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "amanda.hall@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2469",
+        "enabled": true,
+        "department": "Security"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2469",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "kenneth.nelson@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2470",
+        "enabled": true,
+        "department": "Finance"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2470",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "margaret.rodriguez@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2471",
+        "enabled": true,
+        "department": "Procurement"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2471",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "richard.garcia@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2472",
+        "enabled": true,
+        "department": "IT"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2472",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "edward.davis@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-2473",
+        "enabled": true,
+        "department": "Security"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-2473",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "liam.walsh@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-1000",
+        "enabled": true,
+        "department": "Support"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-1000",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "olivia.bennett@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-1001",
+        "enabled": true,
+        "department": "Finance"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-1001",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "ethan.brooks@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-1002",
+        "enabled": true,
+        "department": "IT"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-1002",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "robert.king@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-500",
+        "enabled": true,
+        "department": "IT"
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-500",
+      "Aces": []
+    },
+    {
+      "Properties": {
+        "name": "svc-backup@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-1010",
+        "enabled": true
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-1010",
+      "Aces": [
+        {
+          "PrincipalSID": "S-1-5-21-5500-5501-5502-1100",
+          "PrincipalType": "Group",
+          "RightName": "ForceChangePassword",
+          "IsInherited": false
+        }
+      ]
+    },
+    {
+      "Properties": {
+        "name": "svc-sql@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-1011",
+        "enabled": true
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-1011",
+      "Aces": [
+        {
+          "PrincipalSID": "S-1-5-21-5500-5501-5502-1101",
+          "PrincipalType": "Group",
+          "RightName": "GenericAll",
+          "IsInherited": false
+        }
+      ]
+    },
+    {
+      "Properties": {
+        "name": "svc-tier0@CORP.LOCAL",
+        "domain": "CORP.LOCAL",
+        "objectid": "S-1-5-21-5500-5501-5502-1012",
+        "enabled": true
+      },
+      "ObjectIdentifier": "S-1-5-21-5500-5501-5502-1012",
+      "Aces": [
+        {
+          "PrincipalSID": "S-1-5-21-5500-5501-5502-1102",
+          "PrincipalType": "Group",
+          "RightName": "GenericAll",
+          "IsInherited": false
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "type": "users",
+    "count": 457,
+    "version": 5
+  }
+}

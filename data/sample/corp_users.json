@@ -1,0 +1,49 @@
+{
+  "data": [
+    {
+      "Properties": { "name": "ALICE@CORP.LOCAL", "domain": "CORP.LOCAL", "objectid": "S-1-5-21-1111111111-2222222222-3333333333-1104", "enabled": true },
+      "ObjectIdentifier": "S-1-5-21-1111111111-2222222222-3333333333-1104",
+      "Aces": []
+    },
+    {
+      "Properties": { "name": "BOB@CORP.LOCAL", "domain": "CORP.LOCAL", "objectid": "S-1-5-21-1111111111-2222222222-3333333333-1105", "enabled": true },
+      "ObjectIdentifier": "S-1-5-21-1111111111-2222222222-3333333333-1105",
+      "Aces": []
+    },
+    {
+      "Properties": { "name": "CAROL@CORP.LOCAL", "domain": "CORP.LOCAL", "objectid": "S-1-5-21-1111111111-2222222222-3333333333-1106", "enabled": true },
+      "ObjectIdentifier": "S-1-5-21-1111111111-2222222222-3333333333-1106",
+      "Aces": []
+    },
+    {
+      "Properties": { "name": "SVC_BACKUP@CORP.LOCAL", "domain": "CORP.LOCAL", "objectid": "S-1-5-21-1111111111-2222222222-3333333333-1201", "enabled": true, "hasspn": true },
+      "ObjectIdentifier": "S-1-5-21-1111111111-2222222222-3333333333-1201",
+      "Aces": [
+        {
+          "PrincipalSID": "S-1-5-21-1111111111-2222222222-3333333333-1301",
+          "PrincipalType": "Group",
+          "RightName": "ForceChangePassword",
+          "IsInherited": false
+        }
+      ]
+    },
+    {
+      "Properties": { "name": "SVC_SQL@CORP.LOCAL", "domain": "CORP.LOCAL", "objectid": "S-1-5-21-1111111111-2222222222-3333333333-1202", "enabled": true, "hasspn": true },
+      "ObjectIdentifier": "S-1-5-21-1111111111-2222222222-3333333333-1202",
+      "Aces": []
+    },
+    {
+      "Properties": { "name": "DAADMIN@CORP.LOCAL", "domain": "CORP.LOCAL", "objectid": "S-1-5-21-1111111111-2222222222-3333333333-500", "enabled": true },
+      "ObjectIdentifier": "S-1-5-21-1111111111-2222222222-3333333333-500",
+      "Aces": [
+        {
+          "PrincipalSID": "S-1-5-21-1111111111-2222222222-3333333333-1302",
+          "PrincipalType": "Group",
+          "RightName": "GenericAll",
+          "IsInherited": false
+        }
+      ]
+    }
+  ],
+  "meta": { "type": "users", "count": 6, "version": 5 }
+}
